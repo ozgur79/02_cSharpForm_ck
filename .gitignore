@@ -1,0 +1,9 @@
+# ck'nin kendi ic dogrulamasi icin kullandigi gecici test klasoru
+_test/
+
+# derleme ciktilari / proje coplugu (repo'ya proje dosyasi girmez)
+bin/
+obj/
+*.user
+*.suo
+.vs/
