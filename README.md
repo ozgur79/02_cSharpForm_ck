@@ -38,7 +38,7 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | yayında |
 | 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | yayında |
 | 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | yayında |
-| 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | planlandı |
+| 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | temel dersler yayında, bitirme bekliyor |
 
 ## Ders sırası
 
@@ -90,6 +90,17 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 44 | ck1380_timerButonGosterGizle | Timer + buton: göster/gizle döngüsü | yayında |
 | 45 | ck1390_timerHizKontrolu | Timer ile hız kontrolü (ünite 08 kapanışı) | yayında |
 | 46 | ck1395_zamanliQuizSorusu | Zamanlı quiz sorusu (ek) | yayında |
+| 47 | ck1400_listBoxIleEkleme | ListBox: Items.Add, Items.Count | yayında |
+| 48 | ck1410_listBoxtanSilme | ListBox'tan silme (RemoveAt, SelectedIndex) | yayında |
+| 49 | ck1420_rastgeleKuraCek | Random ile kura çekme | yayında |
+| 50 | ck1430_katlariFiltrele | ListBox + for + if: katlarını filtrele | yayında |
+| 51 | ck1440_pictureBoxImageList | PictureBox + ImageList: resim değiştir | yayında |
+| 52 | ck1450_pictureBoxAnimasyon | PictureBox + ImageList + Timer: animasyon (ünite 09 kapanış) | yayında |
+| 53 | ck1452_diziyleFilmListesi | Diziyle film listesi (ek) | yayında |
+| 54 | ck1454_rastgeleSayiTahmin | Rastgele sayı tahmin oyunu (ek) | yayında |
+| 55 | ck1458_klinikRandevu | Klinik randevu kaydı (ek) | yayında |
+
+Bitirme projesi (ck1460-ck1490) henüz yok — kapsamı Özgür'le netleşince eklenecek.
 
 (Sıradaki dersler için plan: `winforms-plan.md`.)
 

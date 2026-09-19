@@ -78,3 +78,37 @@ Kaynak sadıklığı ve sapmalar:
 
 `mufredat.md`, `README.md` güncellendi (ünite 08 "yayında"). Hiçbiri test edilemedi
 (WinForms) — gerçek test Özgür'ün elle tıklamasını bekliyor.
+
+## 2026-09-19 — Ünite 09 temel dersleri tamamlandı (9 ders, ck1400-ck1458)
+
+Liste, görsel, Random'ın gerçek çıkışı. arsiv/14'ün numaralı maddeleri artık TÜKENDİ —
+her madde ya bir derse dönüştü ya da (madde 29 tam kopya, madde 36/41/43 daha önce ünite
+06'da elenmişti) neden atlandığı kayıtlı.
+
+Kaynak sadıklığı ve sapmalar:
+- ck1400/1410/1420, madde 30'un (`526listbox_if_random`) TEK kodunu üç aşamalı derse
+  bölüyor: önce sade `Items.Add` (1400), sonra `RemoveAt`/`SelectedIndex` ile elle silme
+  (1410, kaynakta yok — ck'nin kendi tasarımı, kavramsal ara basamak), sonunda kaynağın
+  asıl fikri olan Random'lı kura çekme (1420) — Random'ın ck0530'dan beri ertelenen GERÇEK
+  ilk kullanımı burada.
+- ck1440 kaynağı (madde 32) 3 PictureBox'ı karşılaştırıp "kaçı aynı" diyen bir oyundu —
+  tek PictureBox'ta "sonraki resim" mantığına indirgendi, resim dosyaları repo'ya
+  girmediği için (proje dosyası yasağı) öğrenci kendi resimlerini ImageList'e ekliyor.
+- ck1450 kaynağı (madde 33) 3 PictureBox + 3 ayrı Timer'lı bir slot makinesiydi — aynı
+  fikrin 3 katı tekrarı yeni bir kavram katmadığı için TEK PictureBox + TEK Timer'a
+  indirgendi, ck1440'ın index mantığı + Timer + ck1330'un durdur/devam deseni birleşti.
+- ck1454 kaynağının (madde 38) hak sayma mantığı BOZUKTU — doğru tahminde de `hak`
+  artıyor, form hiç kapanmıyordu; düzeltilip `this.Close()` ile temiz bir bitiş eklendi.
+- ck1458 (madde 45, `900hastarandevu`) kaynağı ÇOK karmaşıktı (2D dizi, T.C. doğrulama,
+  DateTimePicker, sıra/çağırma sistemi, ~100 satır) — sadece "ad+poliklinik kaydet, iki
+  ListBox'ı senkron tut" fikri bırakılıp geri kalanı atıldı; bu ünitenin hedef kitlesine
+  (henüz 2D dizi görmemiş öğrenciler) uygun tek katmanlı bir versiyon.
+
+**Açık karar — bitirme projesi (ck1460-ck1490) ÜRETİLMEDİ.** winforms-plan.md'nin
+tanımı ("öğrenci kendi uygulamasını üretir, menü + 3 form") somut bir kapsam/rubric
+içermiyor; "bitti" tanımını Özgür koyduğu için içerik üretilmeden Özgür'le netleştirilmesi
+bekleniyor (bkz. `backlog.md`).
+
+`mufredat.md`, `README.md` güncellendi (ünite 09 temel dersler "yayında", bitirme
+"bekliyor"). Hiçbiri test edilemedi (WinForms) — gerçek test Özgür'ün elle tıklamasını
+bekliyor.

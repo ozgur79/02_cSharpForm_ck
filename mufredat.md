@@ -63,6 +63,20 @@ Console'un ve bu hattın kendi iskelet kutularının kapandığı ünite.**
 
 **Ünite 08 tamamlandı (11 ders, ck1300-ck1395) — zaman ve olay (Timer, fare olayları).**
 
+| ck1400_listBoxIleEkleme | ListBox: `Items.Add`, `Items.Count` — ünite 09 açılış | 09 | — | `ListBox` — yeni kontrol tipi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 30, `526listbox_if_random`; kaynağın sadece isim ekleme kısmı, "Kura Çek" kısmı ck1420'ye ayrıldı) | onaylandı |
+| ck1410_listBoxtanSilme | ListBox'tan silme: `RemoveAt`, `SelectedIndex` | 09 | — | `SelectedIndex`/`-1` kontrolü — yeni teknik | (kaynak yok — ck kendi tasarımı; madde 30'un rastgele-silme kısmından ayrıştırılan basit "seçileni sil" versiyonu) | onaylandı |
+| ck1420_rastgeleKuraCek | `Random rnd = new Random();` — artık okunabiliyor (kura çekme) | 09 | — | Random'ın GERÇEK ilk kullanımı (ck0530'dan beri erteleniyordu) | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 30, `526listbox_if_random`, button2_Click) | onaylandı |
+| ck1430_katlariFiltrele | ListBox + `for` + `if`: katlarını filtrele | 09 | `for`+`if`+`%` zinciri pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 31, `527listbox_for_if`; kaynaktaki `ToInt16` → `ToInt32` düzeltildi) | onaylandı |
+| ck1440_pictureBoxImageList | PictureBox + ImageList: resim değiştir | 09 | dizi indeksleme (ck0660) pekiştirme | `PictureBox`/`ImageList` — yeni kontrol ailesi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 32, `528pictureBox_imagelist`; kaynağın 3-kutulu eşleşme oyunu yerine basit "sonraki resim" mantığına indirgendi, görsel dosyaları repo'ya girmediği için öğrenci kendi resimlerini ekliyor) | onaylandı |
+| ck1450_pictureBoxAnimasyon | PictureBox + ImageList + Timer: animasyon — ünite 09 kapanış | 09 | — | üç önceki fikrin sentezi, kapanış | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 33, `529picturebox_imagelist_timer`; kaynağın 3 PictureBox/3 Timer'lı slot-makinesi tek PictureBox/tek Timer'a indirgendi — aynı fikrin 3 katı karmaşıklığı yeni bir kavram katmıyordu) | onaylandı |
+| ck1452_diziyleFilmListesi | Diziyle film listesi (ek pekiştirme) | 09 | `string[]`/`foreach` (ck0670/ck0705) WinForms'a taşınması | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 37, `001formKolay/31_dizi`) | onaylandı |
+| ck1454_rastgeleSayiTahmin | Rastgele sayı tahmin oyunu (ek pekiştirme) | 09 | — | Random + hak sayma (ck1150) birleşimi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 38, `001FormOrta/10rastgele`; kaynaktaki hak sayma mantığı düzeltildi — orijinalde doğru tahminde de `hak` artıyor ve form kapanmıyordu) | onaylandı |
+| ck1458_klinikRandevu | Klinik randevu kaydı (ek pekiştirme, ünite 09 kapanış) | 09 | — | ComboBox+ListBox+TextBox sentezi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 45, `001FormOrta/900hastarandevu`; kaynak ÇOK basitleştirildi — 2D dizi, T.C. doğrulama, DateTimePicker, sıra/çağırma sistemi kaldırıldı, sadece ad+poliklinik kaydı ve iki ListBox senkronu bırakıldı) | onaylandı |
+
+**Ünite 09 (temel dersler) tamamlandı (9 ders, ck1400-ck1458) — liste, görsel, Random'ın
+gerçek çıkışı. ck1460-ck1490 (bitirme projesi) henüz üretilmedi — "bitti" tanımını Özgür
+koyacağı için kapsamı onunla netleştirilecek.**
+
 ## Kara kutu takip tablosu
 
 Bu hattın kendi kutuları (`object sender, EventArgs e`, `partial`, `InitializeComponent()`,
