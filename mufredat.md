@@ -16,6 +16,23 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 | ck1060_odaklanma | Odaklanma: `txtAd.Focus()`, `Clear()` | 05 | — | hazır metot pekiştirme | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 4, `502WFAyazdirOdaklan`; `Select(1,5)` SEN YAP'a taşındı) | onaylandı |
 | ck1070_textBoxtanLabela | Veri taşı: TextBox → Label | 05 | — | kontroller arası atama | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 5, `508textBoxıLabeleAktar`) | onaylandı |
 | ck1080_textBoxtanMessageBoxa | Veri taşı: TextBox → MessageBox — ünite 05 kapanışı | 05 | — | hazır metot pekiştirme, kapanış | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 6, `509TextBoxtanMessageBoxaAktar`) | onaylandı |
+| ck1100_ikiSayiTopla | İki sayıyı topla: Convert.ToInt32 forma taşındı, MessageBox ile göster | 06 | değişken/dönüşüm pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 7, `503WFAlabelToplama`; ck1100/1110 için üç kaynak vardı [7,8,9], ck1100/1110'a 7 ve türevi kullanıldı, 8 ck1112'ye taşındı, 9 içerik olarak 7'yle örtüştüğü için ayrı ders yapılmadı) | onaylandı |
+| ck1110_sonucuLabelaYaz | Sonucu geri yaz: lblSonuc.Text = toplam.ToString() | 06 | `.ToString()` (Convert'in tersi) | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 7'nin devamı, ck1070 ile birleşimi) | onaylandı |
+| ck1112_fonksiyonlaToplama | Fonksiyonla toplama (ek pekiştirme — ck1100/1110'un fazlalık kaynağı) | 06 | fonksiyon + form birleşimi | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 8, `503WFAmetod_ile`) | onaylandı |
+| ck1120_modAlma | Mod alma, kalan | 06 | `%` pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 10, `511modAlma`) | onaylandı |
+| ck1130_ortalama | Üç sayının ortalaması (double, virgül sorunu, biriktirici + sıfırla) | 06 | biriktirici pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 11, `518ortalama`) | onaylandı |
+| ck1140_ifIleKarar | if ile karar: girilen boşsa/eşitse uyar (kare mi dikdörtgen mi) | 06 | if/else pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 12, `515ifButonLabelTextbox`) | onaylandı |
+| ck1150_gizliParola | Gizli parola: PasswordChar, doğru/yanlış kontrolü | 06 | `&&` pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 13, `516gizliParola`; gerçek isim/parola yerine ck0240'taki kurgusal `ogrenci`/`kalfa123`) | onaylandı |
+| ck1160_butonHesapMakinesi | Buton hesap makinesi (4 buton, 4 işlem) | 06 | operatör pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 14, `513butonHesapMak`; `int`→`double` bölme küsuratı için) | onaylandı |
+| ck1170_comboBoxIleSecim | ComboBox ile işlem seçimi (SelectedIndex) | 06 | karar zinciri pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 15, `512comboboxHesapMak`) | onaylandı |
+| ck1180_radioButtonIleSecim | RadioButton ile işlem seçimi (Checked) | 06 | karar pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 16, `514radioButonHesapMak`; kaynakta sadece Toplama (radioButton1) tam yazılmıştı, diğer 3 SEN YAP'a bırakıldı) | onaylandı |
+| ck1190_forDonguForma | for döngüsünü forma taşı: sonucu Label'a biriktirerek yaz — ünite 06 kapanışı | 06 | döngü + string biriktirme pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 17, `520for`) | onaylandı |
+| ck1191_kisiselBilgiGorunurluk | Koşula göre bir GroupBox'ı göster/gizle (ek pekiştirme) | 06 | `Visible` + `&&` pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 35, `16_2_combobox`; kaynaktaki çok sayıda iç içe koşul tek bir net örneğe indirgendi, `TextChanged`+`try/catch` yerine buton-tetiklemeli tasarıma çevrildi — try/catch henüz öğretilmedi) | onaylandı |
+| ck1192_manavAlisverisi | Manav alışverişi: ComboBox + ListBox + biriktirici (ek pekiştirme) | 06 | `ListBox.Items.Add` — yeni kontrol | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 40, `19manavAlisverisi`; madde 41 `500alisverisSepeti` neredeyse birebir aynı olduğu için atlandı) | onaylandı |
+| ck1193_cepTelefoncuZincirleme | Birbirine bağlı iki ComboBox: marka seçince model listesi değişir (ek pekiştirme) | 06 | `Items.Clear/Add` kod içinde — yeni teknik | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 42, `20CepTelefoncu`) | onaylandı |
+| ck1194_odemeHesaplayici | Ödeme hesaplayıcı: switch ile taksit — ünite 06 ek pekiştirme kapanışı | 06 | `switch` + yüzde formülü birleşimi, kapanış | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 34, `16_1_combobox`; kaynaktaki çok sayıda görünürlük dalı basitleştirildi, `try/catch` yerine `ReadOnly` TextBox ile hata riski önlendi) | onaylandı |
+
+**Ünite 06 tamamlandı (15 ders, ck1100-ck1194).**
 
 ## Kara kutu takip tablosu
 
