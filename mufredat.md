@@ -49,6 +49,20 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 **Ünite 07 tamamlandı (11 ders, ck1200-ck1295) — nesne tabanlı programlama girişi,
 Console'un ve bu hattın kendi iskelet kutularının kapandığı ünite.**
 
+| ck1300_timerNesnesi | Timer nesnesi: `Interval`, `Start()`, `Stop()`, `Tick` olayı — ünite 08 açılış | 08 | — | `Timer` — yeni kontrol tipi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 18, `506WFATimerNesnesi`; kaynaktaki MouseMove oyunu bu ilk Timer dersinden ayrıştırıldı, sadece Timer'ın kendisi anlatıldı — mouse konusu zaten ck1360'a planlıydı) | onaylandı |
+| ck1310_saniyedeBirRenkDegistir | Saniyede bir renk değiştir — Timer'ın `Enabled` ile otomatik başlaması | 08 | — | `Enabled` — Timer'a özel ilk kullanım | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 19, `517timerRenk`) | onaylandı |
+| ck1320_geriyeSay | Geriye sayım: TextBox'tan alınan sayıyı Label'a yazarak azalt, sıfırda dur | 08 | `Convert.ToInt32` pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 20, `523geriyeSay`; kaynaktaki `ToInt16` → `ToInt32` düzeltildi) | onaylandı |
+| ck1330_geriyeSayDurDevam | Geriye sayımı durdur/devam ettir — tek butonla iki görev | 08 | — | `bool` ile buton durumu pekiştirme | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 21, `524geriyeSayDur`; `dur` adı `calisiyor` olarak netleştirildi, kaynaktaki "ZOR" yorum satırı kaldırıldı) | onaylandı |
+| ck1340_sistemSaatiniGoster | Sistem saatini göster (`DateTime.Now`) | 08 | — | `DateTime` — yeni hazır kaynak | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 22, `525sistemSaatiniGoster`) | onaylandı |
+| ck1350_trafikLambasi | Trafik lambası: sayaç eşikleriyle zamanlı renk geçişi | 08 | if/else zincirleme pekiştirme | — | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 23/24, `519trafikLambasi`/`2`; kaynaktaki `%` tabanlı mantık hem hatalı hem yorumlarla çelişkiliydi, basit eşik sayacıyla (`sayac==3/4/6`) yeniden yazıldı) | onaylandı |
+| ck1360_mouseMoveEnter | `MouseMove`/`MouseLeave`: fare üstüne gelince | 08 | — | fare olayları — yeni olay ailesi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 25, `504WFA_mouseMoveOver`) | onaylandı |
+| ck1370_kacanButonOyunu | Kaçan buton oyunu: 6 butona MouseMove | 08 | — | MouseMove pekiştirme, çok kontrol | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 26, `505WFAmouseMoveOYUN`) | onaylandı |
+| ck1380_timerButonGosterGizle | Timer + buton: göster/gizle döngüsü, tıklayınca puan | 08 | `!` ile durum tersleme pekiştirme | `Visible` pekiştirme | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 27, `521butonGösterGizleTimer`; kaynaktaki `Random` ile konum değiştirme kaldırıldı — Random ck1420'ye kadar planlı değil, ders başlığı zaten sadece "göster/gizle" diyordu) | onaylandı |
+| ck1390_timerHizKontrolu | Timer ile hız kontrolü: `Interval`i koddan değiştir — ünite 08 kapanışı | 08 | — | `Interval` çalışırken değişebilir — pekiştirme | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 28, `522butonileHizKontrolu`; madde 29 `522butonileHizKontroluMOD_KULLANMADAN` madde 28 ile TAMAMEN aynı kod olduğu için atlandı; kaynaktaki eksik olan alt sınır kontrolü SEN YAP'a çevrildi) | onaylandı |
+| ck1395_zamanliQuizSorusu | Zamanlı quiz sorusu: RadioButton + Timer bir arada (ek pekiştirme) | 08 | — | RadioButton (ck1180) + Timer birleşimi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 44, `001FormOrta/501test`; kaynaktaki "sende iş yok" gibi sert ifade "Üzgünüz, cevap yanlış" olarak yumuşatıldı) | onaylandı |
+
+**Ünite 08 tamamlandı (11 ders, ck1300-ck1395) — zaman ve olay (Timer, fare olayları).**
+
 ## Kara kutu takip tablosu
 
 Bu hattın kendi kutuları (`object sender, EventArgs e`, `partial`, `InitializeComponent()`,

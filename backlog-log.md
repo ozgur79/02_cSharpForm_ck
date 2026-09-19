@@ -55,3 +55,26 @@ Ogrenci()`ye taşındığı kapanış noktası.
 `mufredat.md`, `README.md` güncellendi (ünite 07 "yayında"). Hiçbiri `dotnet run` ile
 test edilemedi (WinForms) — doğrulama sadece kod okuması ve derleme mantığıyla yapıldı,
 gerçek test Özgür'ün elle tıklamasını bekliyor (`Test-Gunlugu.md`).
+
+## 2026-09-19 — Ünite 08 tamamlandı (11 ders, ck1300-ck1395)
+
+Zaman ve olay: Timer, fare olayları. arsiv/14 madde [28]/[29] çakışması "sen seç" ile
+çözüldü — ikisi (`522butonileHizKontrolu` ve `...MOD_KULLANMADAN`) TAMAMEN aynı kod
+olduğu için [28] kullanıldı, [29] atlandı (bonus derse taşınacak fark yoktu).
+
+Kaynak sadıklığı ve sapmalar:
+- ck1300 kaynağı (madde 18) Timer'ı MouseMove tabanlı bir oyunla karıştırıyordu — ilk
+  Timer dersi olduğu için sadece Timer ayrıştırıldı, mouse kısmı zaten ck1360'a planlıydı.
+- ck1350 kaynağının (madde 23/24) `%` tabanlı mantığı hem hatalı hem kod-yorum çelişkiliydi
+  (yorumda "yeşil" yazan blok kırmızı/beyaz atıyordu) — basit eşik sayacıyla
+  (`sayac==3/4/6`) baştan, doğru ve anlaşılır şekilde yazıldı.
+- ck1380 kaynağı (madde 27) `Random` ile butonu rastgele konuma taşıyordu — Random
+  ck1420'ye kadar yasak olduğu için bu kısım kaldırıldı; ders başlığı zaten sadece
+  "göster/gizle" dediği için içerik kaybı olmadı.
+- ck1390'ın kaynağında (madde 28) alt sınır kontrolü YOKTU (Interval sıfıra/eksiye
+  düşüp çökebilirdi) — bu eksiklik silinmedi, SEN YAP'a çevrilip öğrenciye buldurtuldu.
+- ck1395 (ek pekiştirme, madde 44) kaynağındaki "sende iş yok" gibi sert bir ifade
+  "Üzgünüz, cevap yanlış" olarak yumuşatıldı — lise hedef kitlesi kuralı.
+
+`mufredat.md`, `README.md` güncellendi (ünite 08 "yayında"). Hiçbiri test edilemedi
+(WinForms) — gerçek test Özgür'ün elle tıklamasını bekliyor.

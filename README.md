@@ -37,7 +37,7 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 05 (ck1000-ck1099) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | yayında |
 | 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | yayında |
 | 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | yayında |
-| 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | planlandı |
+| 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | yayında |
 | 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | planlandı |
 
 ## Ders sırası
@@ -79,6 +79,17 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 33 | ck1280_usingKapaniyor | `using` kapanıyor: satırı sil, ne bozuluyor gör | yayında |
 | 34 | ck1290_cokFormluUygulama | Çok formlu uygulama: yaptığın şeyin adı (ünite 07 kapanışı) | yayında |
 | 35 | ck1295_formGosterGizle | Form göster/gizle: `Hide()`/`Show()` (ek) | yayında |
+| 36 | ck1300_timerNesnesi | Timer nesnesi: Interval, Start(), Stop(), Tick | yayında |
+| 37 | ck1310_saniyedeBirRenkDegistir | Saniyede bir renk değiştir (Timer Enabled) | yayında |
+| 38 | ck1320_geriyeSay | Geriye sayım | yayında |
+| 39 | ck1330_geriyeSayDurDevam | Geriye sayımı durdur/devam ettir | yayında |
+| 40 | ck1340_sistemSaatiniGoster | Sistem saatini göster (DateTime.Now) | yayında |
+| 41 | ck1350_trafikLambasi | Trafik lambası | yayında |
+| 42 | ck1360_mouseMoveEnter | MouseMove/MouseLeave | yayında |
+| 43 | ck1370_kacanButonOyunu | Kaçan buton oyunu | yayında |
+| 44 | ck1380_timerButonGosterGizle | Timer + buton: göster/gizle döngüsü | yayında |
+| 45 | ck1390_timerHizKontrolu | Timer ile hız kontrolü (ünite 08 kapanışı) | yayında |
+| 46 | ck1395_zamanliQuizSorusu | Zamanlı quiz sorusu (ek) | yayında |
 
 (Sıradaki dersler için plan: `winforms-plan.md`.)
 
