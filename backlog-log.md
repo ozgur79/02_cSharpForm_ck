@@ -112,3 +112,11 @@ bekleniyor (bkz. `backlog.md`).
 `mufredat.md`, `README.md` güncellendi (ünite 09 temel dersler "yayında", bitirme
 "bekliyor"). Hiçbiri test edilemedi (WinForms) — gerçek test Özgür'ün elle tıklamasını
 bekliyor.
+
+## 2026-09-19 — Bitirme projesi (ck1460-ck1490) İPTAL EDİLDİ
+
+Özgür kararı: yukarıdaki açık karar sorulmadan önce kapatıldı — ayrı bir bitirme projesi
+üretilmeyecek. Müfredat ck1458 ile biter, ünite 09 zaten ek pekiştirme dersleriyle
+(ck1452/1454/1458) kapanış niteliğinde olduğu için içerik kaybı yok. `winforms-plan.md`
+(ünite 09 tablosu ve başlığı), `mufredat.md`, `README.md`, `backlog.md` güncellendi —
+ck1460-1499 aralığı artık rezerve değil, WinForms müfredatı ck1458'de tamamlandı.

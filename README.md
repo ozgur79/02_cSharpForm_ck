@@ -38,7 +38,7 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | yayında |
 | 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | yayında |
 | 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | yayında |
-| 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | temel dersler yayında, bitirme bekliyor |
+| 09 (ck1400-ck1458) | Liste, görsel — Random'ın gerçek çıkışı | yayında |
 
 ## Ders sırası
 
@@ -98,11 +98,9 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 52 | ck1450_pictureBoxAnimasyon | PictureBox + ImageList + Timer: animasyon (ünite 09 kapanış) | yayında |
 | 53 | ck1452_diziyleFilmListesi | Diziyle film listesi (ek) | yayında |
 | 54 | ck1454_rastgeleSayiTahmin | Rastgele sayı tahmin oyunu (ek) | yayında |
-| 55 | ck1458_klinikRandevu | Klinik randevu kaydı (ek) | yayında |
+| 55 | ck1458_klinikRandevu | Klinik randevu kaydı (ek, ünite 09 kapanış) | yayında |
 
-Bitirme projesi (ck1460-ck1490) henüz yok — kapsamı Özgür'le netleşince eklenecek.
-
-(Sıradaki dersler için plan: `winforms-plan.md`.)
+Müfredat ck1458 ile biter — bitirme projesi iptal edildi (2026-09-19).
 
 ## Lab ortamı
 

@@ -73,9 +73,9 @@ Console'un ve bu hattın kendi iskelet kutularının kapandığı ünite.**
 | ck1454_rastgeleSayiTahmin | Rastgele sayı tahmin oyunu (ek pekiştirme) | 09 | — | Random + hak sayma (ck1150) birleşimi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 38, `001FormOrta/10rastgele`; kaynaktaki hak sayma mantığı düzeltildi — orijinalde doğru tahminde de `hak` artıyor ve form kapanmıyordu) | onaylandı |
 | ck1458_klinikRandevu | Klinik randevu kaydı (ek pekiştirme, ünite 09 kapanış) | 09 | — | ComboBox+ListBox+TextBox sentezi | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 45, `001FormOrta/900hastarandevu`; kaynak ÇOK basitleştirildi — 2D dizi, T.C. doğrulama, DateTimePicker, sıra/çağırma sistemi kaldırıldı, sadece ad+poliklinik kaydı ve iki ListBox senkronu bırakıldı) | onaylandı |
 
-**Ünite 09 (temel dersler) tamamlandı (9 ders, ck1400-ck1458) — liste, görsel, Random'ın
-gerçek çıkışı. ck1460-ck1490 (bitirme projesi) henüz üretilmedi — "bitti" tanımını Özgür
-koyacağı için kapsamı onunla netleştirilecek.**
+**Ünite 09 TAMAMLANDI (9 ders, ck1400-ck1458) — liste, görsel, Random'ın gerçek çıkışı.
+Bitirme projesi (ck1460-ck1490) İPTAL EDİLDİ (2026-09-19, Özgür) — ünite 09 bu haliyle
+kapanış sayılır, ck1458 ünitenin son dersidir. `winforms-plan.md` de güncellendi.**
 
 ## Kara kutu takip tablosu
 

@@ -25,7 +25,7 @@ Console tarafında ck0010-ck0080 ile kurulan zincir.
 | **06** | ck1100-ck1199 | Formda hesap ve karar |
 | **07** | ck1200-ck1299 | **Nesne tabanlı programlama girişi** (kara kutular burada kapanır) |
 | **08** | ck1300-ck1399 | Zaman ve olay (Timer, fare) |
-| **09** | ck1400-ck1499 | Liste, görsel, çok formlu uygulama |
+| **09** | ck1400-ck1458 | Liste, görsel (çok formlu uygulama zaten ünite 07'de kapandı) |
 
 Sıra bilinçli: **Timer ve Random, OOP'tan sonra**. Çünkü `timer1.Start()` ve
 `Random rnd = new Random();` satırları nesne bilgisi olmadan ezberdir; ünite 07'den sonra
@@ -131,7 +131,10 @@ bir yerde tekrarlamak. Ters sıra (önce soyut `class Ogrenci`) lisede tipik ola
 | ck1380 | Timer + buton: göster/gizle döngüsü | 521 |
 | ck1390 | Timer ile hız kontrolü (interval'i koddan değiştir) | 522 |
 
-## 6. Ünite 09 — Liste, görsel, bitirme (ck1400-ck1499)
+## 6. Ünite 09 — Liste, görsel (ck1400-ck1458)
+
+Bitirme projesi (ck1460-ck1490) İPTAL EDİLDİ (2026-09-19, Özgür) — ünite 09, ek
+pekiştirme dersleriyle (ck1452/1454/1458) kapanıyor, ayrı bir kapanış projesi yok.
 
 | ck | konu | kaynak |
 |---|---|---|
@@ -141,7 +144,6 @@ bir yerde tekrarlamak. Ters sıra (önce soyut `class Ogrenci`) lisede tipik ola
 | ck1430 | ListBox + `for` + `if`: filtreleme | 527 |
 | ck1440 | PictureBox + ImageList: resim değiştir | 528 |
 | ck1450 | PictureBox + ImageList + Timer: animasyon | 529 |
-| ck1460-ck1490 | Bitirme projesi: öğrenci kendi uygulamasını üretir (menü + 3 form) | — |
 
 ## 7. Kara kutu takvimi (karara bağlandı)
 
