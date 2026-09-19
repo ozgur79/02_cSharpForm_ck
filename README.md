@@ -34,7 +34,7 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 
 | ünite | konu | durum |
 |---|---|---|
-| 05 (ck1000-ck1099) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | planlandı |
+| 05 (ck1000-ck1099) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | yayında |
 | 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | planlandı |
 | 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | planlandı |
 | 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | planlandı |
@@ -44,7 +44,15 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 
 | # | proje adı | konu | durum |
 |---|-----------|------|-------|
-| 1 | ck1000_formuTani | Form, Toolbox/Properties, Name kuralı, ilk olay, menü formu | taslak |
+| 1 | ck1000_formuTani | Form, Toolbox/Properties, Name kuralı, ilk olay, menü formu | yayında |
+| 2 | ck1010_ilkOlay | İlk olay: butona basınca formun rengini değiştir | yayında |
+| 3 | ck1020_formNesnesi | Formun kendisi de bir nesne (Left/Top/Opacity/Text) | yayında |
+| 4 | ck1030_butonuBuyutSakla | Özellik ile metot farkı (büyüt/sakla) | yayında |
+| 5 | ck1040_oneAlArkayaGonder | Öne al / arkaya gönder + bool durum | yayında |
+| 6 | ck1050_ozellikleriBirlikte | Enabled/Visible/BackColor/Size bir arada | yayında |
+| 7 | ck1060_odaklanma | Odaklanma: Focus() ve Clear() | yayında |
+| 8 | ck1070_textBoxtanLabela | Veri taşı: TextBox → Label | yayında |
+| 9 | ck1080_textBoxtanMessageBoxa | Veri taşı: TextBox → MessageBox (ünite 05 kapanışı) | yayında |
 
 (Sıradaki dersler için plan: `winforms-plan.md`.)
 
