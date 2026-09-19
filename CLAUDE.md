@@ -1,23 +1,30 @@
 # 02_cSharpForm_ck — WinForms hattı
 
+> **Önce şunu oku:** `D:\Atolye\cSharp` kökündeki kimlik dosyası — `AGENTS.md` (Codex) ya da
+> `CLAUDE.md` (Claude); ikisinin ortak gövdesi aynıdır. csharpKalfa'nın kuralları orada yaşar,
+> burada tekrar edilmez. O dosya da Kalfa'nın kuralları için `D:\Atolye` kökündeki kimlik
+> dosyasına yönlendirir; zinciri eksiksiz izle. Bu dosya onun üstüne biner, onu yalanlamaz.
+> Bazı araçlar üst dizinlerin kimlik dosyalarını kendiliğinden yüklemez — görmüyorsan
+> **elle aç ve oku**, bu işin ilk adımıdır.
+
 Kimlik, sert sınırlar, ders üretim döngüsü, isimlendirme ve **kara kutu doktrini** üst
-klasörde: `D:\Atolye\cSharp\CLAUDE.md`. Burada tekrar edilmez. Bu dosya sadece bu projenin
+klasördeki kimlik dosyasında (`D:\Atolye\cSharp\CLAUDE.md` / `D:\Atolye\cSharp\AGENTS.md`). Burada tekrar edilmez. Bu dosya sadece bu projenin
 kendi kapsamını yazar.
 
 ## Kapsam
 
-**ck0500-ck0999, ünite 05-09, WinForms (Windows Form Application) + nesne tabanlı
+**ck1000-ck1499, ünite 05-09, WinForms (Windows Form Application) + nesne tabanlı
 programlama.** Ön koşul: `01_cSharpGiris_ck` tamamlanmış olmak — öğrenci değişken, operatör,
 karar yapısı, döngü, dizi, fonksiyon ve `Convert.ToInt32`'yi Console'da öğrenmiş varsayılır.
-Numaralandırma sıfırlanmaz, 01'in bittiği yerden (ck0500) devam eder.
+Numaralandırma sıfırlanmaz, 01'in bittiği yerden (ck1000) devam eder.
 
 | ünite | ck aralığı | konu |
 |---|---|---|
-| 05 | ck0500-ck0599 | Form ve nesne ile tanışma |
-| 06 | ck0600-ck0699 | Formda hesap ve karar (Console bilgisinin forma taşınması) |
-| 07 | ck0700-ck0799 | **Nesne tabanlı programlama girişi — Console'un kara kutuları burada kapanır** |
-| 08 | ck0800-ck0899 | Zaman ve olay (Timer, fare) |
-| 09 | ck0900-ck0999 | Liste, görsel, çok formlu uygulama |
+| 05 | ck1000-ck1099 | Form ve nesne ile tanışma |
+| 06 | ck1100-ck1199 | Formda hesap ve karar (Console bilgisinin forma taşınması) |
+| 07 | ck1200-ck1299 | **Nesne tabanlı programlama girişi — Console'un kara kutuları burada kapanır** |
+| 08 | ck1300-ck1399 | Zaman ve olay (Timer, fare) |
+| 09 | ck1400-ck1499 | Liste, görsel, çok formlu uygulama |
 
 Ders ders plan ve gerekçeler: `winforms-plan.md`. Kaynak: Özgür'ün eski derslerindeki
 500-529 numaralı projeler (`E:\11OkulDesler2026\01NTP\Projects-2024-DersteAnlatılanlar`).
@@ -44,7 +51,7 @@ gerektiğinde `Exclude From Project` ile hatalı formu geçici çıkarmayı öğ
 
 ## WinForms ders şablonu (istisnasız — üç dosya)
 
-Onaylanmış numune: `ornek/ck0530_butonuBuyutSakla/` (Özgür 2026-09-05'te inceledi ve
+Onaylanmış numune: `ornek/ck1030_butonuBuyutSakla/` (Özgür 2026-09-05'te inceledi ve
 onayladı). Biçim tartışması kapandı; yeni ders üretirken oradaki üç dosya kopyalanıp
 doldurulur.
 
@@ -92,6 +99,13 @@ demez, "yazdım, teste hazır" der.
 
 **Üretim beklemede** (2026-09-05, Özgür'ün kararı): plan ve numune hazır, ders üretimi
 Özgür başlat diyene kadar başlamaz. Console hattı (01) devam ediyor.
+
+**2026-09-19 numara kayması.** 01'in numara alanı (ck0000-ck0499) yeni bir arşiv parçasıyla
+doldu; Özgür 01'i ck0000-ck0999'a genişletti, 02 ck1000'den başlayacak şekilde kaydı. Bu
+projenin o ana kadarki tek dersi `ck0500_formuTani` → `ck1000_formuTani`, numunesi
+`ornek/ck0530_butonuBuyutSakla` → `ornek/ck1030_butonuBuyutSakla` olarak yeniden adlandırıldı
+(git mv, geçmiş korunarak). Tüm ck05xx-ck09xx referansları +500 kaydırıldı (ck05→ck10,
+ck06→ck11, ck07→ck12, ck08→ck13, ck09→ck14) — ünite sırası/aralık genişlikleri değişmedi.
 
 ## Klasörler
 

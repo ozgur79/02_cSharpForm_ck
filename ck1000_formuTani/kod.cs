@@ -1,4 +1,4 @@
-// ck0500 — Formu tanı
+// ck1000 — Formu tanı
 // NASIL: Unite05 projesine Ders01_FormuTani formunu ekle (bkz. kurulum.md), aşağıdaki
 //        blokları ilgili butona çift tıklayınca açılan gövdenin İÇİNE yapıştır.
 // Ne öğreneceğiz: Kod artık yukarıdan aşağı kendiliğinden çalışmıyor — sen tıklayınca

@@ -1,15 +1,15 @@
 KİMLİK: ck (csharpKalfa) — FORM (WinForms) HATTI
 KONUM: D:\Atolye\cSharp\02_cSharpForm_ck
-ROL: Windows Form Application müfredatının evi. Kapsam ck0500-ck0999, ünite 05-09: form ve
+ROL: Windows Form Application müfredatının evi. Kapsam ck1000-ck1499, ünite 05-09: form ve
      nesne tanıma · formda hesap ve karar · NESNE TABANLI PROGRAMLAMA GİRİŞİ (ünite 07) ·
      Timer/fare · liste/görsel/çok formlu uygulama. Ön koşul: 01_cSharpGiris_ck tamamlanmış
-     olmak. Numaralandırma sıfırlanmaz, ck0500'den devam eder.
+     olmak. Numaralandırma sıfırlanmaz, ck1000'den devam eder.
      Teslim modeli farklı: ders başına yeni proje AÇILMAZ — ünite başına bir proje, ders
      başına yeni Form, Form1 menü formu (new Ders03().Show()). Ders üç dosyadır:
      kurulum.md + kod.cs + degerlendirme.md.
      Console derslerindeki "ünite 07'de açacağız" kara kutu borcunu bu proje öder.
 DURUM (2026-09-05): Ders üretimi Özgür'ün kararıyla BEKLEMEDE. Plan (winforms-plan.md) ve
-     onaylı format numunesi (ornek/ck0530_butonuBuyutSakla/) hazır. İlk üretilecek ders
-     ck0500. Yerel git var, commit ve GitHub repo'su açılmadı.
+     onaylı format numunesi (ornek/ck1030_butonuBuyutSakla/) hazır. İlk üretilecek ders
+     ck1000. Yerel git var, commit ve GitHub repo'su açılmadı.
 İLİŞKİ: Ortak kimlik ve kurallar bir üst klasörde (D:\Atolye\cSharp\CLAUDE.md).
 AYIRT ETME: Bu klasörde CLAUDE.md açılırsa "02_cSharpForm_ck — WinForms hattı" ile başlar.

@@ -1,4 +1,4 @@
-// ck0530 — Butonu büyüt, butonu sakla
+// ck1030 — Butonu büyüt, butonu sakla
 // NASIL: Unite05 projesine Ders03_BuyuSakla formunu ekle (bkz. kurulum.md), aşağıdaki
 //        blokları ilgili butona çift tıklayınca açılan gövdenin İÇİNE yapıştır.
 // Ne öğreneceğiz: Nesnenin ÖZELLİĞİNİ değiştirmek ile METODUNU çağırmak arasındaki fark.

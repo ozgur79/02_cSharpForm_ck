@@ -1,4 +1,4 @@
-# ck0530 — Butonu büyüt, butonu sakla
+# ck1030 — Butonu büyüt, butonu sakla
 
 ## Senaryo
 
@@ -7,7 +7,7 @@ ekrandan kaybolsun. İkisi de aynı şeye benziyor ama koda bakınca farkı gör
 
 ## Hazırlık
 
-1. `Unite05` projeni aç. (Yoksa ck0500'e dön, orada bir kez açtık.)
+1. `Unite05` projeni aç. (Yoksa ck1000'e dön, orada bir kez açtık.)
 2. **Project > Add Windows Form** de, adını `Ders03_BuyuSakla` yaz.
 3. Açılan boş forma aşağıdaki iki butonu sürükle:
 

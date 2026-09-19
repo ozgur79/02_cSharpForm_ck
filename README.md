@@ -34,17 +34,17 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 
 | ünite | konu | durum |
 |---|---|---|
-| 05 (ck0500-0599) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | planlandı |
-| 06 (ck0600-0699) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | planlandı |
-| 07 (ck0700-0799) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | planlandı |
-| 08 (ck0800-0899) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | planlandı |
-| 09 (ck0900-0999) | Liste, görsel, çok formlu uygulama + bitirme projesi | planlandı |
+| 05 (ck1000-ck1099) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | planlandı |
+| 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | planlandı |
+| 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | planlandı |
+| 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | planlandı |
+| 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | planlandı |
 
 ## Ders sırası
 
 | # | proje adı | konu | durum |
 |---|-----------|------|-------|
-| 1 | ck0500_formuTani | Form, Toolbox/Properties, Name kuralı, ilk olay, menü formu | taslak |
+| 1 | ck1000_formuTani | Form, Toolbox/Properties, Name kuralı, ilk olay, menü formu | taslak |
 
 (Sıradaki dersler için plan: `winforms-plan.md`.)
 

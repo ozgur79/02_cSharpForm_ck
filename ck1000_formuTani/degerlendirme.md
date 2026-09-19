@@ -1,4 +1,4 @@
-# Değerlendirme — ck0500 Formu tanı
+# Değerlendirme — ck1000 Formu tanı
 
 Öğrenci projeyi çalıştırıp gösterdikten sonra sorulur.
 

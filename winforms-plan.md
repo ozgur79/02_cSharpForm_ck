@@ -21,11 +21,11 @@ Console tarafında ck0010-ck0080 ile kurulan zincir.
 | ünite | ck aralığı | konu |
 |---|---|---|
 | 00-04 | ck0000-ck0499 | Console (mevcut hat) |
-| **05** | ck0500-ck0599 | Form ve nesne ile tanışma |
-| **06** | ck0600-ck0699 | Formda hesap ve karar |
-| **07** | ck0700-ck0799 | **Nesne tabanlı programlama girişi** (kara kutular burada kapanır) |
-| **08** | ck0800-ck0899 | Zaman ve olay (Timer, fare) |
-| **09** | ck0900-ck0999 | Liste, görsel, çok formlu uygulama |
+| **05** | ck1000-ck1099 | Form ve nesne ile tanışma |
+| **06** | ck1100-ck1199 | Formda hesap ve karar |
+| **07** | ck1200-ck1299 | **Nesne tabanlı programlama girişi** (kara kutular burada kapanır) |
+| **08** | ck1300-ck1399 | Zaman ve olay (Timer, fare) |
+| **09** | ck1400-ck1499 | Liste, görsel, çok formlu uygulama |
 
 Sıra bilinçli: **Timer ve Random, OOP'tan sonra**. Çünkü `timer1.Start()` ve
 `Random rnd = new Random();` satırları nesne bilgisi olmadan ezberdir; ünite 07'den sonra
@@ -56,25 +56,25 @@ hatalı form geçici olarak projeden çıkarılabilir (`Exclude From Project`) �
 
 Repo tarafı değişmez: ck yine **proje dosyası push etmez**, sadece `kurulum.md` + `kod.cs`.
 
-## 2. Ünite 05 — Form ve nesne ile tanışma (ck0500-ck0599)
+## 2. Ünite 05 — Form ve nesne ile tanışma (ck1000-ck1099)
 
 Amaç: "Sürüklediğin her şey bir **nesne**." Terim verilmez, deneyimletilir.
 
 | ck | konu | kaynak | çekirdek |
 |---|---|---|---|
-| ck0500 | Formu tanı: Toolbox, Properties, Name verme kuralı (`btnTikla`, `txtSayi`, `lblSonuc`) | 500 | — |
-| ck0510 | İlk olay: butona çift tıkla, `Click` gövdesine kod yaz | 500 | `this.BackColor = Color.Red;` |
-| ck0520 | Formun kendisi de bir nesne: `this.Left`, `this.Top`, `this.Opacity`, `this.Text` | 500 | `this.Top -= 10;` |
-| ck0530 | **Özellik ile metot farkı**: butonu büyüt (özellik), sakla (metot) | **501** | `button1.Height = 100;` / `button3.Hide();` |
-| ck0540 | Öne al / arkaya gönder + durumu tutan `bool` | **501** | `SendToBack()` / `BringToFront()` |
-| ck0550 | `Enabled`, `Visible`, `BackColor`, `Size` bir arada | 507 | — |
-| ck0560 | Odaklanma: `txtAd.Focus()`, `Clear()` | 502 | — |
-| ck0570 | Veri taşı: TextBox → Label | 508 | `lblSonuc.Text = txtAd.Text;` |
-| ck0580 | Veri taşı: TextBox → MessageBox | 509 | `MessageBox.Show(txtAd.Text);` |
+| ck1000 | Formu tanı: Toolbox, Properties, Name verme kuralı (`btnTikla`, `txtSayi`, `lblSonuc`) | 500 | — |
+| ck1010 | İlk olay: butona çift tıkla, `Click` gövdesine kod yaz | 500 | `this.BackColor = Color.Red;` |
+| ck1020 | Formun kendisi de bir nesne: `this.Left`, `this.Top`, `this.Opacity`, `this.Text` | 500 | `this.Top -= 10;` |
+| ck1030 | **Özellik ile metot farkı**: butonu büyüt (özellik), sakla (metot) | **501** | `button1.Height = 100;` / `button3.Hide();` |
+| ck1040 | Öne al / arkaya gönder + durumu tutan `bool` | **501** | `SendToBack()` / `BringToFront()` |
+| ck1050 | `Enabled`, `Visible`, `BackColor`, `Size` bir arada | 507 | — |
+| ck1060 | Odaklanma: `txtAd.Focus()`, `Clear()` | 502 | — |
+| ck1070 | Veri taşı: TextBox → Label | 508 | `lblSonuc.Text = txtAd.Text;` |
+| ck1080 | Veri taşı: TextBox → MessageBox | 509 | `MessageBox.Show(txtAd.Text);` |
 
 Ünite sonu: menü formu + 9 form, tek projede.
 
-## 3. Ünite 06 — Formda hesap ve karar (ck0600-ck0699)
+## 3. Ünite 06 — Formda hesap ve karar (ck1100-ck1199)
 
 Amaç: Console'da öğrenilen her şeyin (dönüşüm, operatör, `if`, `for`) forma taşınması.
 Yeni dil kavramı yok — **arayüz değişti, dil aynı kaldı**. "Az zamanda çok şey" hedefinin
@@ -82,66 +82,66 @@ en verimli ünitesi: öğrenci yeni bir şey öğrenmiyor, bildiğini yeni bir y
 
 | ck | konu | kaynak |
 |---|---|---|
-| ck0600 | İki sayıyı topla: `Convert.ToInt32(txtSayi1.Text)` — Console'daki dönüşümün aynısı | 503, 510 |
-| ck0610 | Sonucu geri yaz: `lblSonuc.Text = toplam.ToString();` | 503 |
-| ck0620 | Mod alma, kalan | 511 |
-| ck0630 | Üç sayının ortalaması (`double`, virgül sorunu) | 518 |
-| ck0640 | `if` ile karar: girilen boşsa uyar | 515 |
-| ck0650 | Gizli parola: `PasswordChar`, doğru/yanlış kontrolü | 516 |
-| ck0660 | Buton hesap makinesi (4 buton, 4 işlem) | 513 |
-| ck0670 | ComboBox ile işlem seçimi (`SelectedIndex`) | 512 |
-| ck0680 | RadioButton ile işlem seçimi (`Checked`) | 514 |
-| ck0690 | `for` döngüsünü forma taşı: sonucu Label'a biriktirerek yaz | 520 |
+| ck1100 | İki sayıyı topla: `Convert.ToInt32(txtSayi1.Text)` — Console'daki dönüşümün aynısı | 503, 510 |
+| ck1110 | Sonucu geri yaz: `lblSonuc.Text = toplam.ToString();` | 503 |
+| ck1120 | Mod alma, kalan | 511 |
+| ck1130 | Üç sayının ortalaması (`double`, virgül sorunu) | 518 |
+| ck1140 | `if` ile karar: girilen boşsa uyar | 515 |
+| ck1150 | Gizli parola: `PasswordChar`, doğru/yanlış kontrolü | 516 |
+| ck1160 | Buton hesap makinesi (4 buton, 4 işlem) | 513 |
+| ck1170 | ComboBox ile işlem seçimi (`SelectedIndex`) | 512 |
+| ck1180 | RadioButton ile işlem seçimi (`Checked`) | 514 |
+| ck1190 | `for` döngüsünü forma taşı: sonucu Label'a biriktirerek yaz | 520 |
 
-## 4. Ünite 07 — Nesne tabanlı programlama girişi (ck0700-ck0799)
+## 4. Ünite 07 — Nesne tabanlı programlama girişi (ck1200-ck1299)
 
 **Console hattı boyunca Merak Köşesi'nde biriktirilen kara kutuların kapandığı yer.**
 Perde tek seferde değil, sırayla kalkar.
 
 | ck | ders | ne açılır |
 |---|---|---|
-| ck0700 | **Perdeyi kaldır:** `Form1.Designer.cs`'i aç, `this.button1 = new System.Windows.Forms.Button();` satırını göster. "Sürüklediğin her buton için VS bu satırı senin yerine yazmış." | `new` |
-| ck0710 | Aynı satırı **sen yaz**: kod ile buton üret, forma ekle (`Controls.Add`) | nesne üretme |
-| ck0720 | Ürettiğin butonu konumlandır, yazısını ver | özellik = nesnenin sıfatı |
-| ck0730 | `for` ile 5 buton üret — **aynı sınıftan çok nesne, her biri kendi özelliğini taşır** | sınıf/nesne ayrımı |
-| ck0740 | Hepsine tek olay bağla, `sender` ile hangisine basıldığını bul | olay + nesne kimliği |
-| ck0750 | **Kapsam dersi:** sayacı handler içinde tanımla → her tıklamada sıfırlanıyor. Sınıf seviyesine taşı → hatırlıyor. | alan (field) vs yerel değişken |
-| ck0760 | `class Program`, `static void Main`, `namespace` — Console'un iskeleti artık okunabilir | **iskelet kara kutuları kapanır** |
-| ck0770 | Kendi sınıfın: `class Ogrenci` (ad, numara, `Yazdir()`), iki nesne üret, bağımsız olduklarını gör | kendi sınıfını yazma |
-| ck0780 | `using` ne yapıyordu: `System.Windows.Forms` satırını sil, ne bozuluyor gör | **`using` kara kutusu kapanır** |
-| ck0790 | Çok formlu uygulama: menü formundan `new Ders01().Show();` — ünite başından beri yaptığın şeyin adı buymuş | nesne üretmenin gerçek kullanımı |
+| ck1200 | **Perdeyi kaldır:** `Form1.Designer.cs`'i aç, `this.button1 = new System.Windows.Forms.Button();` satırını göster. "Sürüklediğin her buton için VS bu satırı senin yerine yazmış." | `new` |
+| ck1210 | Aynı satırı **sen yaz**: kod ile buton üret, forma ekle (`Controls.Add`) | nesne üretme |
+| ck1220 | Ürettiğin butonu konumlandır, yazısını ver | özellik = nesnenin sıfatı |
+| ck1230 | `for` ile 5 buton üret — **aynı sınıftan çok nesne, her biri kendi özelliğini taşır** | sınıf/nesne ayrımı |
+| ck1240 | Hepsine tek olay bağla, `sender` ile hangisine basıldığını bul | olay + nesne kimliği |
+| ck1250 | **Kapsam dersi:** sayacı handler içinde tanımla → her tıklamada sıfırlanıyor. Sınıf seviyesine taşı → hatırlıyor. | alan (field) vs yerel değişken |
+| ck1260 | `class Program`, `static void Main`, `namespace` — Console'un iskeleti artık okunabilir | **iskelet kara kutuları kapanır** |
+| ck1270 | Kendi sınıfın: `class Ogrenci` (ad, numara, `Yazdir()`), iki nesne üret, bağımsız olduklarını gör | kendi sınıfını yazma |
+| ck1280 | `using` ne yapıyordu: `System.Windows.Forms` satırını sil, ne bozuluyor gör | **`using` kara kutusu kapanır** |
+| ck1290 | Çok formlu uygulama: menü formundan `new Ders01().Show();` — ünite başından beri yaptığın şeyin adı buymuş | nesne üretmenin gerçek kullanımı |
 
 Sıra bilinçli: **önce başkasının sınıfını kullan (Button), sonra kendi sınıfını yaz.**
 `new Button()` tanıdık bir şeyin arkasını görmek; `new Ogrenci()` tanıdık bir hareketi yeni
 bir yerde tekrarlamak. Ters sıra (önce soyut `class Ogrenci`) lisede tipik olarak
 "ezberledim ama ne işe yaradığını bilmiyorum" ile sonuçlanır.
 
-## 5. Ünite 08 — Zaman ve olay (ck0800-ck0899)
+## 5. Ünite 08 — Zaman ve olay (ck1300-ck1399)
 
 | ck | konu | kaynak |
 |---|---|---|
-| ck0800 | Timer nesnesi: `Interval`, `Start()`, `Stop()`, `Tick` olayı | 506 |
-| ck0810 | Saniyede bir renk değiştir | 517 |
-| ck0820 | Geri sayım (Label'a yaz, sıfırda dur) | 523 |
-| ck0830 | Geri sayımı durdur / devam ettir | 524 |
-| ck0840 | Sistem saatini göster (`DateTime.Now`) | 525 |
-| ck0850 | Trafik lambası | 519 |
-| ck0860 | `MouseMove` / `MouseEnter`: fare üstüne gelince | 504 |
-| ck0870 | Kaçan buton oyunu | 505 |
-| ck0880 | Timer + buton: göster/gizle döngüsü | 521 |
-| ck0890 | Timer ile hız kontrolü (interval'i koddan değiştir) | 522 |
+| ck1300 | Timer nesnesi: `Interval`, `Start()`, `Stop()`, `Tick` olayı | 506 |
+| ck1310 | Saniyede bir renk değiştir | 517 |
+| ck1320 | Geri sayım (Label'a yaz, sıfırda dur) | 523 |
+| ck1330 | Geri sayımı durdur / devam ettir | 524 |
+| ck1340 | Sistem saatini göster (`DateTime.Now`) | 525 |
+| ck1350 | Trafik lambası | 519 |
+| ck1360 | `MouseMove` / `MouseEnter`: fare üstüne gelince | 504 |
+| ck1370 | Kaçan buton oyunu | 505 |
+| ck1380 | Timer + buton: göster/gizle döngüsü | 521 |
+| ck1390 | Timer ile hız kontrolü (interval'i koddan değiştir) | 522 |
 
-## 6. Ünite 09 — Liste, görsel, bitirme (ck0900-ck0999)
+## 6. Ünite 09 — Liste, görsel, bitirme (ck1400-ck1499)
 
 | ck | konu | kaynak |
 |---|---|---|
-| ck0900 | ListBox: `Items.Add`, `Items.Count` | 526 |
-| ck0910 | ListBox'tan silme: `RemoveAt`, `SelectedIndex` | 526 |
-| ck0920 | `Random rnd = new Random();` — artık bu satırı okuyabiliyorsun (kura çekme) | 526 |
-| ck0930 | ListBox + `for` + `if`: filtreleme | 527 |
-| ck0940 | PictureBox + ImageList: resim değiştir | 528 |
-| ck0950 | PictureBox + ImageList + Timer: animasyon | 529 |
-| ck0960-0990 | Bitirme projesi: öğrenci kendi uygulamasını üretir (menü + 3 form) | — |
+| ck1400 | ListBox: `Items.Add`, `Items.Count` | 526 |
+| ck1410 | ListBox'tan silme: `RemoveAt`, `SelectedIndex` | 526 |
+| ck1420 | `Random rnd = new Random();` — artık bu satırı okuyabiliyorsun (kura çekme) | 526 |
+| ck1430 | ListBox + `for` + `if`: filtreleme | 527 |
+| ck1440 | PictureBox + ImageList: resim değiştir | 528 |
+| ck1450 | PictureBox + ImageList + Timer: animasyon | 529 |
+| ck1460-ck1490 | Bitirme projesi: öğrenci kendi uygulamasını üretir (menü + 3 form) | — |
 
 ## 7. Kara kutu takvimi (karara bağlandı)
 

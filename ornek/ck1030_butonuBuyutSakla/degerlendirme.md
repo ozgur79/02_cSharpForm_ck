@@ -1,4 +1,4 @@
-# Değerlendirme — ck0530 Butonu büyüt, butonu sakla
+# Değerlendirme — ck1030 Butonu büyüt, butonu sakla
 
 Öğrenci formu çalıştırıp gösterdikten sonra sorulur.
 

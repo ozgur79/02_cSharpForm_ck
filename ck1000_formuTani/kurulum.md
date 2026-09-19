@@ -1,4 +1,4 @@
-# ck0500 — Formu tanı
+# ck1000 — Formu tanı
 
 ## Senaryo
 
