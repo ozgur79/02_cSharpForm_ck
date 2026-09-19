@@ -34,6 +34,21 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 
 **Ünite 06 tamamlandı (15 ders, ck1100-ck1194).**
 
+| ck1200_perdeyiKaldir | Perdeyi kaldır: Designer.cs'i oku, kontrollerin arkasındaki `new`+`Controls.Add`'i gör — ünite 07 açılış | 07 | — | `new` (kontroller için) — gözlem | (kaynak yok — ck kendi tasarımı, Designer.cs okuması) | onaylandı |
+| ck1210_kendiButonunuUret | Kendi butonunu kod ile üret: `new Button()`, `Click +=` ilk kez | 07 | — | `+=` ile olay bağlama — ilk kez | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1220_konumlandirVeYazi | Ürettiğin butonu konumlandır, yazısını ver | 07 | — | özellik = nesnenin sıfatı | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1230_forIleBesButon | `for` ile 5 buton üret: aynı sınıftan çok nesne, her biri kendi özelliğini taşır | 07 | döngü + dizi zinciri (ck0670) pekiştirme | sınıf/nesne ayrımı | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1240_tekOlaySenderIle | Hepsine tek olay bağla, `sender` ile hangisine basıldığını bul — `object sender, EventArgs e` kapanır | 07 | cast (ck0650/ck0790) pekiştirme | olay + nesne kimliği | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1250_alanVsYerelDegisken | Kapsam dersi: sayacı handler içinde tanımla → sıfırlanıyor, sınıf seviyesine taşı → hatırlıyor | 07 | — | alan (field) vs yerel değişken | (kaynak yok — ck kendi tasarımı; ck1040'ın kapsam ön izlemesine bağlanır) | onaylandı |
+| ck1260_iskeletKapaniyor | `namespace`, `class Program`, `static Main`, `partial`, `InitializeComponent()` — beş kutu birden kapanıyor | 07 | — | **iskelet kutuları kapanır** (Console'dan devralınan 3 + bu hattın kendi 2 kutusu) | (kaynak yok — ck kendi tasarımı, Program.cs + Form1.cs okuması) | onaylandı |
+| ck1270_kendiSinifinOgrenci | Kendi sınıfın: `class Ogrenci` (ad, numara, `Tanit()`), iki bağımsız nesne üret | 07 | — | kendi sınıfını yazma | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1280_usingKapaniyor | `using System.Windows.Forms;` satırını sil, ne bozuluyor gör — `using` kutusu kapanır | 07 | — | **`using` kara kutusu kapanır** | (kaynak yok — ck kendi tasarımı, deneysel gözlem) | onaylandı |
+| ck1290_cokFormluUygulama | Çok formlu uygulama: ünite başından beri yaptığın `new DersXX().Show();`in adı buymuş — ünite 07 kapanış | 07 | — | nesne üretmenin gerçek kullanımı, kapanış | (kaynak yok — ck kendi tasarımı) | onaylandı |
+| ck1295_formGosterGizle | Form göster/gizle: `Hide()`/`Show()` ile iki form arasında geçiş (ek pekiştirme) | 07 | — | `Hide()` — yeni hazır metot | arsiv/14cSharpFormÇekirdekKodlar.txt (madde 39, `001formKolay/30_formlar_arasi_gecis`) | onaylandı |
+
+**Ünite 07 tamamlandı (11 ders, ck1200-ck1295) — nesne tabanlı programlama girişi,
+Console'un ve bu hattın kendi iskelet kutularının kapandığı ünite.**
+
 ## Kara kutu takip tablosu
 
 Bu hattın kendi kutuları (`object sender, EventArgs e`, `partial`, `InitializeComponent()`,
@@ -41,15 +56,17 @@ Bu hattın kendi kutuları (`object sender, EventArgs e`, `partial`, `Initialize
 
 | yapı | ilk göründüğü ders | açılacağı yer | Merak Köşesi günlüğü | not |
 |------|----------------------|-------------------|----------------------|-----|
-| `public partial class <FormAdı> : Form` | ck1000 | ünite 07 | ck1010: "Form'un yapabildiği her şeyi yapabilir" demek, BackColor/Text/Left/Top bu yüzden çalışıyor (tur 2) | rotasyon sırası 1 |
-| `InitializeComponent();` | ck1000 | ünite 07 | ck1020: Designer'da sürüklenen her kontrolü kodun haline getirip formun İLK açıldığı an çalıştırıyor (tur 2) | rotasyon sırası 2 |
-| `object sender, EventArgs e` | ck1000 | ünite 07 (ck1240) | ck1030: "sender" = olayı kim başlattı; tek buton varken gerek yok, ck1240'ta beş butona tek kod yazınca lazım olacak (tur 2) | rotasyon sırası 3 |
-| `new Ders01_FormuTani().Show();` | ck1000 | ünite 07 (ck1210/ck1290) | ck1070: yeni bir pencere/nesne oluşturup ekrana getiriyor, her derste az önce çizilen formun kopyasını açıyor (tur 2) | rotasyon sırası 4 — menü formunun satırı, her derste tekrar eder |
+| `public partial class <FormAdı> : Form` | ck1000 | ck1260 (**kapandı**) | ck1010 (tur 2): "Form'un yapabildiği her şeyi yapabilir" demek. ck1260 (tur 3, **emekli**): `partial` iki dosyayı (Designer.cs/Form1.cs) tek sınıfta birleştirir, `: Form` miras kutusu | rotasyon sırası 1 |
+| `InitializeComponent();` | ck1000 | ck1260 (**kapandı**) | ck1020 (tur 2): Designer'da sürüklenen her kontrolü kodun haline getirip formun İLK açıldığı an çalıştırıyor. ck1260 (tur 3, **emekli**): Form1() constructor'ının içinde, form ekrana gelmeden hemen önce çağrıldığı gösterildi | rotasyon sırası 2 |
+| `object sender, EventArgs e` | ck1000 | ck1240 (**kapandı**) | ck1030 (tur 2): "sender" = olayı kim başlattı. ck1240 (tur 3, **emekli**): 5 butona tek kod yazınca `(Button)sender` cast'iyle hangisine basıldığı bulundu | rotasyon sırası 3 |
+| `new Ders01_FormuTani().Show();` | ck1000 | ck1290 (**kapandı**) | ck1070 (tur 2): yeni bir pencere/nesne oluşturup ekrana getiriyor. ck1290 (tur 3, **emekli**): desenin adı "çok formlu uygulama" — sınıf/nesne bilgisiyle geriye dönük açıklandı | rotasyon sırası 4 — menü formunun satırı, her derste tekrar eder |
 
-**Merak Köşesi günlüğü:** ck1000 → **atlandı (ders yüklü)**. ck1010/1020/1030/1070 sırayla
-rotasyonun 2. turunu tamamladı (ck1040/1050/1060/1080 kendi yeni fikirleri ağır olduğu
-için yük freniyle atladı — ck1040 bool/kapsam ön izlemesi, ck1050/1060/1080 pekiştirme
-yoğun). Üçüncü ve son tur ünite 06'da devam edecek.
+**Merak Köşesi günlüğü:** ck1000 → **atlandı (ders yüklü)**. ck1010/1020/1030/1070 tur 2'yi
+tamamladı (ck1040/1050/1060/1080 yük freniyle atladı). Ünite 06'da tur 3 için uygun bir
+ders çıkmadı (tüm ünite 06 dersleri kendi pekiştirme yüküyle doluydu) — üçüncü tur ünite
+07'nin kendi kapanış derslerine (ck1240, ck1260, ck1290) taşındı; oradaki kapanışlar hem
+tur 3 hem resmi emeklilik oldu. **Rotasyonun 4 kutusu da artık emekli, ünite 07 sonunda
+hiçbiri geriye kalmadı.**
 
 ## Devralınan borç — 01'in kara kutuları
 
@@ -60,8 +77,11 @@ güncellenir.
 
 | yapı | söz verilen yer | ödendiği ders |
 |---|---|---|
-| `using ...` (5 satır) | ünite 07 | ck1280 (planlandı) |
-| `namespace` | ünite 07 | ck1260 (planlandı) |
-| `class Program` | ünite 07 | ck1260 (planlandı) |
-| `static void Main(string[] args)` | ünite 07 | ck1260 (planlandı) |
+| `using ...` (5 satır) | ünite 07 | ck1280 (**ödendi**) |
+| `namespace` | ünite 07 | ck1260 (**ödendi**) |
+| `class Program` | ünite 07 | ck1260 (**ödendi**) |
+| `static void Main(string[] args)` | ünite 07 | ck1260 (**ödendi**) |
 | `Console.ReadKey();` | ileride ayrı bir derste | henüz planlanmadı |
+
+**Not:** `01_cSharpGiris_ck/mufredat.md`'deki kara kutu tablosu bu dört satır için de
+gerçek ck numarasıyla (ck1260/ck1280) güncellenmeli — bkz. backlog.md.

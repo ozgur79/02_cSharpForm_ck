@@ -36,7 +36,7 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 |---|---|---|
 | 05 (ck1000-ck1099) | Form ve nesne ile tanışma — buton, metin kutusu, etiket, olay | yayında |
 | 06 (ck1100-ck1199) | Formda hesap ve karar — Console'da öğrendiğinin forma taşınması | yayında |
-| 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | planlandı |
+| 07 (ck1200-ck1299) | Nesne tabanlı programlama girişi — `new`, sınıf, nesne, kapsam | yayında |
 | 08 (ck1300-ck1399) | Zaman ve olay — Timer, fare olayları, küçük oyunlar | planlandı |
 | 09 (ck1400-ck1499) | Liste, görsel, çok formlu uygulama + bitirme projesi | planlandı |
 
@@ -68,6 +68,17 @@ kod parçaları. Proje her zaman senin kendi Visual Studio'nda oluşturulur.
 | 22 | ck1192_manavAlisverisi | Manav alışverişi (ek) | yayında |
 | 23 | ck1193_cepTelefoncuZincirleme | Zincirleme ComboBox (ek) | yayında |
 | 24 | ck1194_odemeHesaplayici | Ödeme hesaplayıcı (ek, ünite 06 kapanışı) | yayında |
+| 25 | ck1200_perdeyiKaldir | Perdeyi kaldır: Designer.cs okuması (ünite 07 açılış) | yayında |
+| 26 | ck1210_kendiButonunuUret | Kendi butonunu kod ile üret (`new Button()`, `+=`) | yayında |
+| 27 | ck1220_konumlandirVeYazi | Ürettiğin butonu konumlandır, yazısını ver | yayında |
+| 28 | ck1230_forIleBesButon | `for` ile 5 buton üret: sınıf/nesne ayrımı | yayında |
+| 29 | ck1240_tekOlaySenderIle | Tek olay, `sender` ile hangisine basıldığını bul | yayında |
+| 30 | ck1250_alanVsYerelDegisken | Alan (field) vs yerel değişken — kapsam dersi | yayında |
+| 31 | ck1260_iskeletKapaniyor | İskelet kapanıyor: namespace/Program/Main/partial/InitializeComponent | yayında |
+| 32 | ck1270_kendiSinifinOgrenci | Kendi sınıfın: `class Ogrenci` | yayında |
+| 33 | ck1280_usingKapaniyor | `using` kapanıyor: satırı sil, ne bozuluyor gör | yayında |
+| 34 | ck1290_cokFormluUygulama | Çok formlu uygulama: yaptığın şeyin adı (ünite 07 kapanışı) | yayında |
+| 35 | ck1295_formGosterGizle | Form göster/gizle: `Hide()`/`Show()` (ek) | yayında |
 
 (Sıradaki dersler için plan: `winforms-plan.md`.)
 

@@ -2,13 +2,16 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
-- **arsiv/14 işleniyor.** Özgür ck1000'i test edip onayladı, "hiç durma" dedi.
-  **Ünite 05 (9 ders) ve Ünite 06 (15 ders, 11 planlı + 4 ek pekiştirme) TAMAMLANDI,
-  commit edildi.** ck1100/1110 için üç kaynak vardı (7,8,9) — 7 ck1100/1110'a, 8
-  ck1112'ye (bonus fonksiyon dersi) taşındı, 9 içerik olarak örtüştüğü için ayrı ders
-  yapılmadı. ck1180'de kaynağın sadece Toplama'yı (radioButton1) implemente ettiği
-  fark edildi, diğer 3 seçenek SEN YAP'a bırakıldı. Ek pekiştirmelerde (ck1191/1194)
-  kaynaktaki `try/catch` gereken TextChanged-tetiklemeli tasarımlar buton-tetiklemeli
-  basit tasarımlara çevrildi — try/catch henüz öğretilmedi.
-- **Sıradaki: Ünite 07 (ck1200-ck1290 + ek pekiştirme ck1295) — nesne tabanlı
-  programlama girişi, Console'un kara kutularının kapandığı yer.**
+- **arsiv/14 işleniyor.** Özgür "hiç durma, hepsini üret" dedi. Ünite 05 (9 ders),
+  Ünite 06 (15 ders) ve **Ünite 07 (11 ders, ck1200-ck1295) TAMAMLANDI** — nesne tabanlı
+  programlama girişi, Console'un ve bu hattın kendi iskelet kutularının kapandığı ünite.
+  Ayrıntı: `backlog-log.md` (2026-09-19 kaydı).
+- **Sıradaki: Ünite 08 (ck1300-ck1390 + arsiv/14 madde [28]/[29] çakışması + ek ck1395) —
+  zaman ve olay (Timer, fare olayları).** [28]/[29]'un hangisinin ck1390'a gideceği karara
+  bağlanmadı, üretirken seçilecek.
+- **Sonra: Ünite 09 (ck1400-ck1450 + ek ck1452/1454/1458) — liste, görsel, çok formlu
+  bitirme.** ck1420'ye kadar `new Random()` YASAK (nesne bilgisi olmadan ezber olur
+  kararı) — ck1420 Random'ın gerçek ilk çıkışı. ck1458 (madde [45], hasta randevu) 2D
+  dizi/TC doğrulama karmaşıklığından basitleştirilecek.
+- Hiçbir WinForms dersi `dotnet run` ile test edilemiyor — doğrulama kod okuması + derleme
+  mantığıyla yapılıyor, gerçek test Özgür'ün elle tıklamasını bekliyor (`Test-Gunlugu.md`).

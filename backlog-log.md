@@ -19,3 +19,39 @@ ile (geçmiş korunarak) yeniden adlandırıldı; `winforms-plan.md`, `mufredat.
 `backlog.md`, `kimlik_ck_form.txt`, `CLAUDE.md`/`AGENTS.md` içindeki tüm ck05xx-ck09xx
 numaraları +500 kaydırıldı (ünite sırası ve aralık genişlikleri aynı kaldı). Henüz üretim
 başlamadığı için (Durum: "Üretim beklemede") içerik değişmedi, sadece numaralar kaydı.
+
+## 2026-09-19 — Ünite 07 tamamlandı (11 ders, ck1200-ck1295)
+
+Nesne tabanlı programlama girişi. Özgür arsiv/14 için "Hiç durma, hepsini üret" dedi —
+tüm ünite kesintisiz üretildi, kaynak zaten arsiv/14'ten neredeyse tükenmişti; ck1200-1290
+(10 ders) ck'nin kendi tasarımı (arsiv kaynağı yok, sıra dil/arayüz zincirinden geldi),
+sadece ck1295 arsiv/14'ten (madde 39, `001formKolay/30_formlar_arasi_gecis`).
+
+Bu ünite hem bu hattın kendi iskelet kutularını (`partial class : Form`,
+`InitializeComponent()`, `object sender`, `new DersXX().Show();`) hem Console'dan
+devralınan borcu (`using`, `namespace`, `class Program`, `static Main`, `Console.ReadKey`)
+kapattı — hepsi rotasyonun 3. turuyla aynı derste, resmi emeklilikle birleşti:
+- `object sender, EventArgs e` → ck1240 (5 butona tek Click, `(Button)sender` cast'i)
+- `partial class : Form`, `InitializeComponent()`, `namespace`, `class Program`,
+  `static Main` → ck1260 (Program.cs + Form1.cs okuması, tek derste 5 kutu)
+- `using ...` → ck1280 (satır silinip derlenerek deneysel gösterim)
+- `new DersXX().Show();` → ck1290 (desenin adı "çok formlu uygulama" olarak kondu)
+- `Console.ReadKey();` için WinForms'ta neden karşılığı OLMADIĞI ck1260'ta ayrıca
+  açıklandı (`Application.Run` formu açık tuttuğu sürece programın kapanmaması)
+
+`01_cSharpGiris_ck/mufredat.md`'deki kara kutu tablosu bu 5 satır için gerçek numaralarla
+(`02_cSharpForm_ck/ck1260`, `ck1280`) güncellendi — Console tarafındaki kod.cs dosyalarında
+sahte numara zaten kullanılmadığı için (hep genel "ünite 07" dendiği için) geriye dönük
+kod.cs düzeltmesi gerekmedi.
+
+`ck1250_alanVsYerelDegisken` alan/yerel değişken kapsam dersini SEN YAP'ta bizzat
+deneyerek (sayacı önce alan, sonra yerel yapıp farkı gözlemleyerek) işledi — ck0040'taki
+`bool` alanının kapsam ön izlemesine geri bağlandı.
+
+`ck1270_kendiSinifinOgrenci`, öğrencinin ilk kez BAŞKASININ değil KENDİ sınıfını
+(`class Ogrenci`) yazdığı ders — `new Button()`/`new Form2()` alışkanlığının `new
+Ogrenci()`ye taşındığı kapanış noktası.
+
+`mufredat.md`, `README.md` güncellendi (ünite 07 "yayında"). Hiçbiri `dotnet run` ile
+test edilemedi (WinForms) — doğrulama sadece kod okuması ve derleme mantığıyla yapıldı,
+gerçek test Özgür'ün elle tıklamasını bekliyor (`Test-Gunlugu.md`).
