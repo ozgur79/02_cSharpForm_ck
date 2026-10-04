@@ -72,7 +72,7 @@ doldurulur.
   aynen geçer; boş bırakılamaz, çünkü WinForms dersinin "bitti"si Özgür'ün tıklamasıyla
   tanımlıdır.
 
-**2. `kod.cs`** — Console şablonuyla aynı iskelet (başlık + KAVRAM + SEN YAP + MERAK KÖŞESİ),
+**2. `kod.cs`** — Console şablonuyla aynı iskelet (BU KOD NE YAPAR? bloğu + başlık + KAVRAM + SEN YAP + MERAK KÖŞESİ),
 üç farkla:
 - **Tam dosya yok, sadece handler gövdeleri.** Her blok hangi gövdeye gideceğini kendi
   söyler: `// >>> btnBuyu_Click gövdesinin içine:`
