@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Timer her Tick'te formun arka planını siyah ile beyaz arasında değiştirir.
+// Hangi renkte olduğunu bir bool değişkende (beyaz) tutar.
+
 // ck1310 — Saniyede bir renk değiştir
 // NASIL: timer1_Tick gövdesine ikinci bloğu yapıştır, ilk blok (beyaz alanı) sınıfın
 //        içine, metodun dışına gider.

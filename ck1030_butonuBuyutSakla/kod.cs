@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnBuyu'ya her tıklamada butonu 20 piksel genişletir ve 10 piksel yükseltir.
+// btnSakla'ya tıklamada o butonu Hide() ile gizler.
+
 // ck1030 — Butonu büyüt, butonu sakla
 // NASIL: Unite05 projesine Ders04_BuyuSakla formunu ekle (bkz. kurulum.md), aşağıdaki
 //        blokları ilgili butona çift tıklayınca açılan gövdenin İÇİNE yapıştır.

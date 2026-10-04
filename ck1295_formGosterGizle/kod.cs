@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnFormBAc'a tıklanınca Ders08_FormB formunu üretip gösterir. btnBeniGizle'ye
+// tıklanınca da mevcut formu Hide() ile gizler.
+
 // ck1295 — Form göster/gizle: iki form arasında geçiş (ek pekiştirme)
 // NASIL: Ders08_FormA formunda btnFormBAc ve btnBeniGizle butonlarına çift tıkla,
 //        her birinin Click gövdesine ilgili bloğu yapıştır.

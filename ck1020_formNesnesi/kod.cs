@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, formun kendisini kontrol eden beş buton yazar. Form 10 piksel sola ya da yukarı
+// kayar, saydamlığı 0.1 ile 1.0 arasında 0.1 adımlarla değişir, başlık metni TextBox'tan alınır.
+
 // ck1020 — Formun kendisi de bir nesne
 // NASIL: Ders03_FormNesnesi formuna kontrolleri ekle (bkz. kurulum.md), her bloğu
 //        ilgili butonun gövdesine yapıştır.

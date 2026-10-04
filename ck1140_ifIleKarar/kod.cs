@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnAnaliz'e tıklanınca txtEn ve txtBoy kutularındaki sayıları okur. İkisi eşitse
+// lblSonuc'a "Kare", değilse "Dik" yazar.
+
 // ck1140 — if ile karar: kare mi dikdörtgen mi
 // NASIL: Ders06_IfIleKarar formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnAnaliz_Click gövdesine yapıştır.

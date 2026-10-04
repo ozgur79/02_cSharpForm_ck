@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, menü formundaki butonlara tıklanınca başka form sınıflarından nesne üretip
+// Show() ile ekrana getirir (btnDers01 ve btnDers02). Menü formu açık kalır, yeni formlar yanında açılır.
+
 // ck1290 — Çok formlu uygulama: yaptığın şeyin adı buymuş
 // NASIL: Bu ders yeni kod bloğu vermiyor, ünite başından beri yazdığın deseni gösteriyor.
 // Ne öğreneceğiz: `new Ders0X_Isim().Show();` deseni "çok formlu uygulama" diye adlandırılır

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnTopla butonuna tıklanınca iki TextBox'taki sayıyı toplar. Sonucu MessageBox
+// yerine lblSonuc etiketine yazar.
+
 // ck1110 — Sonucu Label'a yaz
 // NASIL: Ders02_SonucuLabelaYaz formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnTopla_Click gövdesine yapıştır.

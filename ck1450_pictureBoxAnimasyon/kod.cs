@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ImageList'teki resimleri Timer ile art arda picGoster'de göstererek animasyon
+// yapar. btnBaslatDurdur Timer'ı başlatır ya da durdurur ve kendi yazısını değiştirir.
+
 // ck1450 — PictureBox + ImageList + Timer: animasyon — ünite 09 kapanış
 // NASIL: Alan bloğu sınıfın içine, kalan iki blok ilgili gövdelere.
 // Ne öğreneceğiz: Yeni bir şey yok — bu ders bir KAPANIŞ: ck1440'ın resim değiştirme

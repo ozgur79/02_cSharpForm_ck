@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir Timer ile sayaç çalıştırır. btnBaslat Timer'ı başlatır, btnDurdur durdurur.
+// Timer her Tick'te saniye değişkenini bir artırıp lblSayac etiketine yazar.
+
 // ck1300 — Timer nesnesi: Interval, Start(), Stop(), Tick
 // NASIL: timer1'e çift tıkla, ilk bloğu Tick gövdesine; btnBaslat ve btnDurdur'a çift
 //        tıklayıp açılan gövdelere kalan iki bloğu yapıştır.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, form açılınca 1-8 arası rastgele bir sayı tutar. btnDeneBakalim'a basınca
+// txtTahmin'deki tahmini kontrol eder. 3 hakta bilirsen "Aferin, bildin!" der, bilemezsen cevabı söyler.
+
 // ck1454 — Rastgele sayı tahmin oyunu (ek pekiştirme)
 // NASIL: Alan blokları sınıfın içine, kalan iki blok ilgili gövdelere.
 // Ne öğreneceğiz: Yeni bir şey yok — ck1420'nin Random'ı, ck1150'nin hak sayma mantığı

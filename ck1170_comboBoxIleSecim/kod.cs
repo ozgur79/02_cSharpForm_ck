@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ComboBox'tan seçilen işleme göre iki sayıyı işler. Seçim sırası 0 toplama, 1
+// çıkarma, 2 çarpma, diğeri bölmedir; sonuç lblSonuc etiketine yazılır.
+
 // ck1170 — ComboBox ile işlem seçimi
 // NASIL: Ders09_ComboBoxIleSecim formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        cmbIslem_SelectedIndexChanged gövdesine yapıştır.

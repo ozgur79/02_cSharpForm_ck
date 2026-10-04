@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 elemanlı bir film dizisini doldurur. btnEkle txtFilm'deki adı diziye ekler,
+// dizi doluysa uyarı verir. btnGoster dizideki filmleri tek tek MessageBox'ta gösterir.
+
 // ck1452 — Diziyle film listesi (ek pekiştirme)
 // NASIL: Alan blokları sınıfın içine, kalan iki blok ilgili gövdelere.
 // Ne öğreneceğiz: Yeni bir şey yok — Console'daki `string[]` ve `foreach` (ck0670,

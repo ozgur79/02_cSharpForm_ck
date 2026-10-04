@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Timer her Tick'te btnGosterge'yi dönüşümlü gösterip gizler (yanıp söner).
+// btnYavaslat Interval'i 50 ms artırır, btnHizlandir 50 ms azaltır; başlangıç 500 ms'dir.
+
 // ck1390 — Timer ile hız kontrolü (Interval'i koddan değiştir) — ünite 08 kapanışı
 // NASIL: Alan bloğu sınıfın içine, kalan üç blok ilgili gövdelere.
 // Ne öğreneceğiz: `Interval`, Designer'da SADECE başlangıç değeri veriyordu — kod

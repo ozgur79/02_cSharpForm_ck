@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnEkle ile txtIsim'deki ismi lstIsimler listesine ekler. btnSil, listede seçili
+// bir isim varsa onu RemoveAt ile listeden siler.
+
 // ck1410 — ListBox'tan silme: RemoveAt, SelectedIndex
 // NASIL: İlgili bloklar btnEkle_Click ve btnSil_Click gövdelerine.
 // Ne öğreneceğiz: `SelectedIndex` — ListBox'ta o an TIKLANMIŞ satırın sıra numarasını

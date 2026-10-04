@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klinik randevu kaydı yapar. btnKaydet, ad soyad boşsa ya da poliklinik seçilmemişse
+// uyarır. Doluysa isim ve poliklinik iki listeye (lstAdSoyad ve lstPoliklinik) eklenir, kutular temizlenir.
+
 // ck1458 — Klinik randevu kaydı (ek pekiştirme, ünite 09 kapanış)
 // NASIL: Blok btnKaydet_Click gövdesinin içine.
 // Ne öğreneceğiz: Yeni bir şey yok — bu ders bir SENTEZ: ComboBox.SelectedItem

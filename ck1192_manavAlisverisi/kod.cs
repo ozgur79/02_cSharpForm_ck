@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir manav sepetidir. Seçili ürünü (elma 5, armut 4, kiraz 15 TL/kg) ve kiloyu
+// lstSepet listesine ekler, toplam tutarı biriktirir. btnBitir tutarı lblTutar etiketine yazar.
+
 // ck1192 — Manav alışverişi (ek pekiştirme)
 // NASIL: Ders13_ManavAlisverisi formuna kontrolleri ekle (bkz. kurulum.md), her bloğu
 //        ilgili butona yapıştır.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, txtSayi'daki sayıyı okur ve 1'den 100'e kadar o sayıya tam bölünenleri (katlarını)
+// for ile bulup lstKatlar listesine ekler.
+
 // ck1430 — ListBox + for + if: katlarını filtrele
 // NASIL: btnListele_Click gövdesine bloğu yapıştır.
 // Ne öğreneceğiz: Console'daki for+if kombinasyonunu (ck0270 tek/çift, ck0705 dizide

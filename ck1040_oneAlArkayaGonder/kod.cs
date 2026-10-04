@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnDegistir'e her tıklamada btnUst butonunu sırayla arkaya gönderir ve öne
+// getirir. Hangi durumda olduğunu bir bool değişkende (ustteBtnUst) tutar.
+
 // ck1040 — Öne al / arkaya gönder
 // NASIL: Ders05_OneArkaya formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnDegistir_Click gövdesine yapıştır.

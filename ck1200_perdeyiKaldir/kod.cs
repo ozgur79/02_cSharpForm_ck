@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu ders çalıştırılacak kod değil, okunacak koddur. Bir Button ile Label'ın VS'in
+// ürettiği Designer.cs içinde new ile nasıl oluşturulup Controls.Add ile forma konduğunu gösterir.
+
 // ck1200 — Perdeyi kaldır (ünite 07'nin ilk dersi)
 // NASIL: Bu ders koda dokunmuyor, SADECE okuyor. Ders01_FormuTani.Designer.cs'i aç
 //        (bkz. kurulum.md).

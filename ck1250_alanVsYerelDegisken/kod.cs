@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sayac adlı sınıf düzeyinde bir değişken tutar. btnSay'a her tıklamada sayac bir
+// artar ve "Tıklama sayısı: ..." lblSonuc'a yazılır; değer tıklamalar arasında kaybolmaz.
+
 // ck1250 — Kapsam dersi: alan mı, yerel değişken mi?
 // NASIL: Ders05_AlanVsYerel formunda btnSay butonuna çift tıkla, ilk satırı (sayac)
 //        metodun DIŞINA sınıfın içine, geri kalanını Click gövdesine yapıştır.

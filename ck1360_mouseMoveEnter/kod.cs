@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, fare butonun üzerine gelince lblDurum'a "Butonun üzerine geldiniz", üzerinden
+// çekilince "Çekildiniz..." yazar.
+
 // ck1360 — MouseMove / MouseLeave: fare üstüne gelince
 // NASIL: Butonun Events sekmesinden MouseMove ve MouseLeave'e çift tıkla, açılan
 //        gövdelere ilgili blokları yapıştır.

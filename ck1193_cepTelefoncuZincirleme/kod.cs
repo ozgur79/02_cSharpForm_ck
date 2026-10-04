@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, iki ComboBox'u birbirine bağlar. Marka seçilince modeller listelenir (Nokia: N70,
+// N95; Motorola: RAZR55); model seçilince fiyat etiketine yazılır (350, 1000 ve 280 TL).
+
 // ck1193 — Birbirine bağlı iki ComboBox (ek pekiştirme)
 // NASIL: Ders14_ZincirlemeComboBox formuna kontrolleri ekle (bkz. kurulum.md), ilk
 //        bloğu cmbMarka_SelectedIndexChanged, ikinci bloğu cmbModel_SelectedIndexChanged

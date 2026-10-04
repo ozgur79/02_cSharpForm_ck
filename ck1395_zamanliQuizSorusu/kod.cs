@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, zamanlı bir quiz sorusudur. Süre dolarsa Timer "Süre doldu" der ve formu kapatır.
+// btnCevapla'ya basılınca rdbB seçiliyse "cevap doğru", değilse "cevap yanlış" der ve formu kapatır.
+
 // ck1395 — Zamanlı quiz sorusu (ek pekiştirme)
 // NASIL: timer1_Tick ve btnCevapla_Click gövdelerine ilgili blokları yapıştır.
 // Ne öğreneceğiz: Yeni bir şey yok — ck1180'in RadioButton'ı ile bu ünitenin Timer'ı

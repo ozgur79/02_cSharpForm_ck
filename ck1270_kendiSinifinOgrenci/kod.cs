@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ad, numara ve Tanit() metodu olan bir Ogrenci sınıfı tanımlar. btnTanit'e
+// tıklanınca iki Ogrenci nesnesi (Ayşe 101, Mehmet 102) üretir ve tanıtımlarını lstSonuc'a ekler.
+
 // ck1270 — Kendi sınıfın: class Ogrenci
 // NASIL: Ogrenci.cs dosyasının İÇİNE ilk bloğu, Ders06_KendiSinifin formunun btnTanit
 //        butonuna çift tıklayıp açılan Click gövdesine ikinci bloğu yapıştır.

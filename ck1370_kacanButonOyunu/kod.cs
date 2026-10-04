@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, formda 6 butonlu bir oyun kurar. Fare ilk beş butondan birinin üzerine gelince
+// "Yandınız!" mesajı çıkar. Altıncı butona gelince "Tebrikler:)" çıkar.
+
 // ck1370 — Kaçan buton oyunu
 // NASIL: Her blok, aynı numaralı butonun MouseMove gövdesine.
 // Ne öğreneceğiz: ck1360'taki tek buton MouseMove'unu 6 butona birden uygulamak — her

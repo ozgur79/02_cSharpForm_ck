@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Timer her Tick'te sistem saatini (DateTime.Now.ToLongTimeString()) lblSaat
+// etiketine yazar; saat saniye saniye ilerler.
+
 // ck1340 — Sistem saatini göster
 // NASIL: timer1_Tick gövdesine bloğu yapıştır.
 // Ne öğreneceğiz: `DateTime.Now` — bilgisayarın o anki tarih/saatini veren hazır bir

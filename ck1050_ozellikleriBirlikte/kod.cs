@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, dört buton yönetir: biri boyutunu 150x60 yapar, biri arka planı siyah yazıyı
+// beyaz yapar, biri 5. tıklamada kendini gizler, biri tıklanınca devre dışı kalır (Enabled = false).
+
 // ck1050 — Enabled, Visible, BackColor, Size bir arada
 // NASIL: Ders06_OzellikleriGor formuna kontrolleri ekle (bkz. kurulum.md), her bloğu
 //        ilgili butona yapıştır.

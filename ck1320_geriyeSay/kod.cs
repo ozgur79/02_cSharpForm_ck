@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, txtSayi'daki sayıdan başlayarak geriye sayar. Timer her Tick'te sayıyı bir azaltıp
+// lblSayac'a yazar; sıfıra gelince Timer'ı durdurur ve lblSonuc'a "BOOM" yazar.
+
 // ck1320 — Geriye sayım: Label'a yaz, sıfırda dur
 // NASIL: btnBaslat_Click ve timer1_Tick gövdelerine ilgili blokları yapıştır, `s` alanı
 //        sınıfın içine, hiçbir metodun dışına gider.

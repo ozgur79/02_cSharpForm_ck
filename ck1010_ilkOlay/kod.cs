@@ -1,3 +1,6 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnKirmizi butonuna tıklanınca formun arka plan rengini kırmızı yapar.
+
 // ck1010 — İlk olay: formun rengini değiştir
 // NASIL: Ders02_IlkOlay formuna btnKirmizi ekle (bkz. kurulum.md), aşağıdaki bloğu
 //        çift tıklayınca açılan gövdenin içine yapıştır.

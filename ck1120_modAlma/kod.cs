@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, txtSayi kutusundaki sayının 2'ye bölümünden kalanı (btnMod2) ya da 3'e bölümünden
+// kalanı (btnMod3) bulur. Kalanı lblSonuc etiketine yazar.
+
 // ck1120 — Mod alma
 // NASIL: Ders04_ModAlma formuna kontrolleri ekle (bkz. kurulum.md), her bloğu ilgili
 //        butona yapıştır.

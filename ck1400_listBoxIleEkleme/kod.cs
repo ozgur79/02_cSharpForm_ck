@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnEkle'ye tıklanınca txtIsim'deki ismi lstIsimler listesine ekler, kutuyu
+// temizler ve lblSayac'a listedeki toplam isim sayısını yazar.
+
 // ck1400 — ListBox: Items.Add, Items.Count — ünite 09 açılış
 // NASIL: btnEkle_Click gövdesine bloğu yapıştır.
 // Ne öğreneceğiz: `ListBox`, birden fazla satırı üst üste tutabilen yeni bir kontrol.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, üç butonlu bir hesap makinesidir. txtSayi1 ve txtSayi2'deki sayılar toplanır,
+// çıkarılır ya da çarpılır (hangi butona basıldığına göre) ve sonuç lblSonuc'a yazılır.
+
 // ck1160 — Buton hesap makinesi
 // NASIL: Ders08_ButonHesapMakinesi formuna kontrolleri ekle (bkz. kurulum.md), her
 //        bloğu ilgili butona yapıştır.

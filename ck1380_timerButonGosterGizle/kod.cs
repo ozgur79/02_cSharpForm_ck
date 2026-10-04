@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Timer her Tick'te btnHedef butonunu gösterir ya da gizler. Buton görünürken
+// tıklanırsa puan bir artar ve lblPuan etiketine yazılır.
+
 // ck1380 — Timer + buton: göster/gizle döngüsü
 // NASIL: Alan bloğu sınıfın içine, ikinci blok timer1_Tick gövdesine, üçüncü blok
 //        btnHedef_Click gövdesine.

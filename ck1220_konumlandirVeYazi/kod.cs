@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, form açılınca kodla 3 buton üretir: "Sol Üst" (10, 10), "Sağ Üst" (200, 10) ve
+// "Alt Orta" (100, 100) konumunda. Her butona yazı ve konum verip forma ekler.
+
 // ck1220 — Ürettiğin butonu konumlandır, yazısını ver
 // NASIL: Ders02_Konumlandir formunun kendisine çift tıkla, bloğu Load gövdesine
 //        yapıştır.

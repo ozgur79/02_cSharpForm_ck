@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, üç butonla txtAd kutusunu yönetir: biri kutuya "Yazılım Uzmanı" yazar, biri
+// imleci kutuya odaklar (Focus), biri kutuyu temizler (Clear).
+
 // ck1060 — Odaklanma: Focus() ve Clear()
 // NASIL: Ders07_Odaklanma formuna kontrolleri ekle (bkz. kurulum.md), her bloğu
 //        ilgili butona yapıştır.

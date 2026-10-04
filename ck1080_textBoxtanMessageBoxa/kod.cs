@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnAktar butonuna tıklanınca txtGirilen kutusundaki yazıyı bir MessageBox
+// penceresinde gösterir.
+
 // ck1080 — Veri taşı: TextBox → MessageBox (ünite 05 kapanışı)
 // NASIL: Ders09_TextBoxtanMessageBoxa formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnAktar_Click gövdesine yapıştır.

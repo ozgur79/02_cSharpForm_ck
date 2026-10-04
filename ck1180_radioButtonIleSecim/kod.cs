@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Toplama" RadioButton'u seçilince txtSayi1 ve txtSayi2'deki sayıları toplar ve
+// sonucu lblSonuc etiketine yazar.
+
 // ck1180 — RadioButton ile işlem seçimi
 // NASIL: Ders10_RadioButtonIleSecim formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        rdbToplama_CheckedChanged gövdesine yapıştır.

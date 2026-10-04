@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu ders, dosyanın en üstündeki "using System.Windows.Forms;" satırını silince ne
+// bozulduğunu gözlemlemek içindir. Yeni çalışacak bir kod yazılmaz.
+
 // ck1280 — using kapanıyor: satırı sil, ne bozuluyor gör
 // NASIL: Ders06_KendiSinifin.cs dosyasının en üstündeki `using System.Windows.Forms;`
 //        satırını sil, derle, sonucu gözlemle, sonra geri koy (bkz. kurulum.md).

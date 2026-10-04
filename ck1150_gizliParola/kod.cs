@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnGiris'e tıklanınca kullanıcı adı "ogrenci" ve parola "kalfa123" mü diye
+// bakar. Doğruysa "Başarılı Giriş", değilse "Yanlış Kullanıcı Adı veya Parola" mesajı gösterir.
+
 // ck1150 — Gizli parola: PasswordChar, doğru/yanlış kontrolü
 // NASIL: Ders07_GizliParola formuna kontrolleri ekle (bkz. kurulum.md — txtParola'nın
 //        PasswordChar'ını `*` yapmayı unutma), bloğu btnGiris_Click gövdesine yapıştır.

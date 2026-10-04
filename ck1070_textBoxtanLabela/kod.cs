@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnAktar butonuna tıklanınca txtGirilen kutusundaki yazıyı lblSonuc etiketine
+// kopyalar.
+
 // ck1070 — Veri taşı: TextBox → Label
 // NASIL: Ders08_TextBoxtanLabela formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnAktar_Click gövdesine yapıştır.

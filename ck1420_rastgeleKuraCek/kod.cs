@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir isim listesinden kura çeker. btnEkle isimleri lstBekleyenler'e ekler; btnKuraCek
+// rastgele birini lstSecilenler'e taşır. Bekleyen kalmadıysa "Bekleyen kimse kalmadı." der.
+
 // ck1420 — Random rnd = new Random(); — kura çekme
 // NASIL: Alan bloğu sınıfın içine, kalan iki blok ilgili gövdelere.
 // Ne öğreneceğiz: Console'da ck0530'da gördüğün `Random` şimdi burada — ama artık `new`,

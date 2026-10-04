@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu ders çalıştırılacak kod değil, okunacak koddur. Program.cs ve Form1.cs'te VS'in hazır
+// yazdığı namespace, class Program, static Main, partial ve InitializeComponent satırlarını anlatır.
+
 // ck1260 — İskelet kapanıyor: namespace, class Program, static Main, partial, InitializeComponent
 // NASIL: Bu ders koda dokunmuyor, SADECE okuyor. Program.cs'i, sonra Form1.cs'i aç
 //        (bkz. kurulum.md).

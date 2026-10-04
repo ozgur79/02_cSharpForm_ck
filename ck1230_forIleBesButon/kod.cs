@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, for döngüsüyle forma alt alta 5 buton ekler ("Buton 1" ... "Buton 5"). Her
+// butonun konumu 35 piksel aşağı kayar.
+
 // ck1230 — for ile 5 buton üret: aynı sınıftan çok nesne
 // NASIL: Ders03_ForIleButon formunun kendisine çift tıkla, bloğu Load gövdesine
 //        yapıştır.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnTopla butonuna tıklanınca iki TextBox'taki yazıyı Convert.ToInt32 ile sayıya
+// çevirir, toplar ve sonucu MessageBox'ta gösterir.
+
 // ck1100 — İki sayıyı topla (ünite 06 girişi)
 // NASIL: Ders01_IkiSayiTopla formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnTopla_Click gövdesine yapıştır.

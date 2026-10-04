@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, üç butonla trafik lambası yapar. Timer her Tick'te sayacı artırır: kırmızı yanar,
+// 3. Tick'te sarı, 4.'te yeşil yanar, 6.'da yeniden kırmızıya döner.
+
 // ck1350 — Trafik lambası
 // NASIL: Alan bloğu sınıfın içine, ikinci blok formun Load gövdesine, üçüncü blok
 //        timer1_Tick gövdesine.

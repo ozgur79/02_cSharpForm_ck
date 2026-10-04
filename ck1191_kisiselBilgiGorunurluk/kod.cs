@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, yaş 18'den büyük ve seçili cinsiyet "Erkek" ise grpAskerlik bölümünü gösterir
+// (Visible = true). Değilse bölümü gizler.
+
 // ck1191 — Koşula göre bir bölümü göster/gizle (ek pekiştirme)
 // NASIL: Ders12_KosullaGoster formuna kontrolleri ekle (bkz. kurulum.md — grpAskerlik'in
 //        Visible'ını baştan false yapmayı unutma), bloğu btnKontrolEt_Click gövdesine

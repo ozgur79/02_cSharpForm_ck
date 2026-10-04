@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, formdaki butona tıklanınca lblMesaj etiketine "Merhaba, ben senin ilk formun."
+// yazar. Menü formundaki butona tıklanınca da Ders01_FormuTani formunu açar.
+
 // ck1000 — Formu tanı
 // NASIL: Unite05 projesine Ders01_FormuTani formunu ekle (bkz. kurulum.md), aşağıdaki
 //        blokları ilgili butona çift tıklayınca açılan gövdenin İÇİNE yapıştır.

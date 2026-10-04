@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, for döngüsüyle forma 5 buton ekler ve hepsinin Click olayını tek bir metoda
+// bağlar. Tıklanan butonu sender ile bulur ve yazısını "Tıklandı!" yapar.
+
 // ck1240 — Hepsine tek olay bağla, sender ile hangisine basıldığını bul
 // NASIL: Ders04_TekOlaySender formunun kendisine çift tıkla, ilk bloğu Load gövdesine,
 //        ikinci bloğu (metot) o gövdenin DIŞINA yapıştır.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnSonraki'ye her tıklamada ImageList'teki bir sonraki resmi picGoster'de gösterir.
+// Son resimden sonra başa döner.
+
 // ck1440 — PictureBox + ImageList: resim değiştir
 // NASIL: Alan bloğu sınıfın içine, ikinci blok btnSonraki_Click gövdesine.
 // Ne öğreneceğiz: `ImageList`, resimleri bir DİZİ gibi (`Images[0]`, `Images[1]`...)

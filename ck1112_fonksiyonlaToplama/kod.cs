@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnTopla'ya tıklanınca iki TextBox'taki sayıyı okur ve Topla(sayi1, sayi2) adlı
+// kendi yazdığımız fonksiyona gönderir. Fonksiyonun döndürdüğü toplamı MessageBox'ta gösterir.
+
 // ck1112 — Fonksiyonla toplama (ek pekiştirme)
 // NASIL: Ders03_FonksiyonlaToplama formuna kontrolleri ekle (bkz. kurulum.md). "1. BÖLÜM"
 //        btnTopla_Click gövdesinin İÇİNE, "2. BÖLÜM" (Topla metodu) o gövdenin DIŞINA,

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, btnEkle'ye her tıklamada txtSayi'daki sayıyı toplama ekler, kaç sayı girildiğini
+// sayar ve ortalamayı hesaplar. 0 girilince "İşlem Bitmiştir..." der ve her şeyi sıfırlar.
+
 // ck1130 — Üç sayının ortalaması (biriktirici + sıfırla)
 // NASIL: Ders05_Ortalama formuna kontrolleri ekle (bkz. kurulum.md), bloğu
 //        btnEkle_Click gövdesine yapıştır.

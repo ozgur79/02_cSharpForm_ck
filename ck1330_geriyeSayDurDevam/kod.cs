@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, geriye sayımı tek bir butonla başlatır, durdurur ve devam ettirir. Buton yazısı
+// "Durdur" ile "Devam Et" arasında değişir; sayım 0'a gelince Timer durur.
+
 // ck1330 — Geriye sayımı durdur / devam ettir
 // NASIL: Alan bloğu sınıfın içine, diğer iki blok ilgili gövdelere.
 // Ne öğreneceğiz: TEK bir butonu iki görevli yapmak — `bool calisiyor` durumuna bakıp

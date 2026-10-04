@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ürün seçilince birim fiyatı yazar (50, 40 ya da 30). Taksit seçilince tutarı
+// hesaplar: peşin aynı, 3 taksitte %3, 6 taksitte %6 fazla; sonucu lblSonTutar'a yazar.
+
 // ck1194 — Ödeme hesaplayıcı: switch ile taksit (ünite 06'nın ek pekiştirme kapanışı)
 // NASIL: Ders15_OdemeHesaplayici formuna kontrolleri ekle (bkz. kurulum.md), her bloğu
 //        ilgili ComboBox'a yapıştır.

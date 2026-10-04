@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, form açılınca kodla bir Button üretir. "Bana Tıkla" yazısını verir, Click olayına
+// bir metot bağlar ve forma ekler; tıklanınca "Beni kod yazarak ürettin!" mesajı çıkar.
+
 // ck1210 — Sen yaz: kod ile buton üret
 // NASIL: Ders01_KendiButonunuUret formunun kendisine çift tıkla (Load olayı açılır),
 //        bloğu o gövdeye yapıştır.
